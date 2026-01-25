@@ -494,7 +494,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://template.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -627,12 +627,20 @@
       "Root"
     ],
     [
-      "5f1a808d-b2f9-451f-b38c-6bf8f788b083",
+      "3cd5b8e4-e0a8-4d4d-99f4-ccb158a12000",
       "POWER"
+    ],
+    [
+      "40d0c523-fc24-4097-9888-0fa62d687751",
+      "FTDI"
     ],
     [
       "1fb0db02-7c5c-4a46-991b-5c62e29077e4",
       "FPGA"
+    ],
+    [
+      "12e9a14f-df84-4ea1-a186-cc5705defdaf",
+      "FPGA PWR"
     ]
   ],
   "text_variables": {}

@@ -1,2 +1,106 @@
-(kicad_pcb (version 20241229) (generator "pcbnew") (generator_version "9.0")
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(date "2026-01-24")
+		(rev "A")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDpCFUUAMadXCAQlR5qMchddwt8XOyzYJc3TZaYNCDfiBSyQxsRACQRcFMATABWADjz8Hc4
+				NkfZ13Jy7TS/ca6iEsbu/GZFfi1XUSjbS/b7kT8BAAh4oPcvQozSUBm/3VzDeVRn/DX7dQ4BEKgQ
+				UkprxtkX2y97iAAIfB+RZqua/RACH/YoSXX2NFp0dqAijbJ2bX91zztmvxlrz3XsSH00zGXt3Ntv
+				73xvF4Rzbar/etdhTWJQ9nZ9zkghwmoMccFI+3P9j6Lau3pf89zh/53dq5MLWpTGRDEp2crG4axn
+				pBIeekYkjooD06CEnDLjpDFi0NB0wkhPDYuCoWlcKhWHadAJ/8rIOZOy/3WtSRv7H8hDZ0sFadKO
+				WZZFaREAF29k09kBgQoeZCLjzoMUGJSXNWeEGJ2UNa1rYpaUM14SIS2RBoR0q9fhRaQwzqYHiF2Z
+				iGICkSxMA81y9W1Xs+eEhsbD4rBwby2b7XfvVCS8BIWTYHNQ/bXLeBN5oOFA6BQJjYIkKWSYA3BE
+				pOaMOltih+DACDgT5BKtoyiZnOVHEsuNsDIK1H3kQ5wH1J6GkLKQLq/CulGFjwksURiE71gyjHcX
+				WxEZNRrsWxFt3fnuPGoyzsDCSvrQipjsjbBtIsylYQXet0Vw18iBnWGhMADoIyj0nvWyVkcHAtwU
+				X5pLQO8f0YVe4AmkTEjQAnp6bWRIWRkyZjFP7FPyEWBUn0jQ/EKoCwfoZWJmX8CbAPn4+E5yJlM0
+				fjnj8D2xWw7Yx3q+OfiWgCAzekzMBl9M0G5ma4B/hFhPKICVjIDmR9RnYpjPIIwCRX7Up0vEmoYd
+				230nHcJ9o7XFHqh2d8Xcelk7CWsUvoCfeLcbLaIwPkwV|
+			)
+			(checksum "CCAA02E176D9606E8E01E160AAC09474")
+		)
+	)
 )
