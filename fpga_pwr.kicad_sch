@@ -7762,7 +7762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b0999b9")
-		(property "Reference" "U3H"
+		(property "Reference" "U3H1"
 			(at 161.29 46.99 0)
 			(effects
 				(font
@@ -7870,6 +7870,24 @@
 			)
 		)
 		(property "pn_product-variant: 85F/4G" "LFE5U-85F-8MG285"
+			(at 181.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 52.07 0)
 			(effects
 				(font
@@ -8736,7 +8754,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "U3H")
+					(reference "U3H1")
 					(unit 8)
 				)
 			)
@@ -8752,7 +8770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b099a65")
-		(property "Reference" "U3I"
+		(property "Reference" "U3I1"
 			(at 166.243 100.584 0)
 			(effects
 				(font
@@ -8858,6 +8876,24 @@
 			)
 		)
 		(property "pn_product-variant: 85F/4G" "LFE5U-85F-8MG285"
+			(at 156.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 156.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 156.21 130.81 0)
 			(effects
 				(font
@@ -9724,7 +9760,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "U3I")
+					(reference "U3I1")
 					(unit 9)
 				)
 			)
@@ -9739,7 +9775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b0ace72")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0130"
 			(at 153.67 139.7 0)
 			(effects
 				(font
@@ -9788,7 +9824,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR0101")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -9803,7 +9839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b1207af")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0134"
 			(at 222.25 69.85 0)
 			(effects
 				(font
@@ -9852,7 +9888,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR0104")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -9867,7 +9903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d3707f5")
-		(property "Reference" "C63"
+		(property "Reference" "C40"
 			(at 42.799 115.6716 0)
 			(effects
 				(font
@@ -9885,7 +9921,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.6852 120.65 0)
 			(effects
 				(font
@@ -9947,6 +9983,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 45.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 45.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9b7ec27-544f-45a9-a205-c51cc6e4fbfb")
 		)
@@ -9956,7 +10010,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C63")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -9971,7 +10025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d3707ff")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0105"
 			(at 45.72 129.54 0)
 			(effects
 				(font
@@ -10020,7 +10074,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR0157")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -10035,7 +10089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d370809")
-		(property "Reference" "C65"
+		(property "Reference" "C43"
 			(at 53.721 115.6716 0)
 			(effects
 				(font
@@ -10053,7 +10107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 51.7652 120.65 0)
 			(effects
 				(font
@@ -10115,6 +10169,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "666534bd-02f0-4829-8562-c2703be8c388")
 		)
@@ -10124,7 +10196,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C65")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -10139,7 +10211,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d37081e")
-		(property "Reference" "C67"
+		(property "Reference" "C46"
 			(at 64.389 115.6716 0)
 			(effects
 				(font
@@ -10157,7 +10229,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.2752 120.65 0)
 			(effects
 				(font
@@ -10219,6 +10291,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44bb8a83-ce9f-469e-ba66-82f3cd56d7bc")
 		)
@@ -10228,7 +10318,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C67")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -10243,7 +10333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d370828")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0111"
 			(at 67.31 129.54 0)
 			(effects
 				(font
@@ -10292,7 +10382,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR0158")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -10307,7 +10397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d370832")
-		(property "Reference" "C69"
+		(property "Reference" "C49"
 			(at 75.311 115.6716 0)
 			(effects
 				(font
@@ -10325,7 +10415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.3552 120.65 0)
 			(effects
 				(font
@@ -10387,6 +10477,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 72.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 72.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "162c7932-035d-4e07-8800-b91cb4539f9a")
 		)
@@ -10396,7 +10504,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C69")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -10411,7 +10519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d761cbe")
-		(property "Reference" "C74"
+		(property "Reference" "C52"
 			(at 87.249 115.6716 0)
 			(effects
 				(font
@@ -10429,7 +10537,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.1352 120.65 0)
 			(effects
 				(font
@@ -10491,6 +10599,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "191d05d7-e22a-4ea4-ae98-7d3161757f8a")
 		)
@@ -10500,7 +10626,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C74")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -10515,7 +10641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d761cc8")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0117"
 			(at 90.17 129.54 0)
 			(effects
 				(font
@@ -10564,7 +10690,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR0163")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -10579,7 +10705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d761cd2")
-		(property "Reference" "C75"
+		(property "Reference" "C54"
 			(at 98.171 115.6716 0)
 			(effects
 				(font
@@ -10597,7 +10723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.2152 120.65 0)
 			(effects
 				(font
@@ -10659,6 +10785,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 95.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 95.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f277edc-0643-4d2b-9884-ae9784be1caf")
 		)
@@ -10668,7 +10812,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C75")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -10684,7 +10828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0678722a-2aec-469e-bda8-6a5bd4bf1a75")
-		(property "Reference" "R?"
+		(property "Reference" "R94"
 			(at 226.06 148.844 90)
 			(effects
 				(font
@@ -10692,7 +10836,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 237.49 148.59 90)
 			(effects
 				(font
@@ -10700,7 +10844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gkl_dipol:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 232.41 148.082 90)
 			(effects
 				(font
@@ -10762,6 +10906,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 232.41 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 232.41 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a9f8d8d-4641-43e5-b2e0-0f920f11dbc9")
 		)
@@ -10771,7 +10933,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "R?")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -10786,7 +10948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06aa5bce-8085-4416-b082-80c7a7bd6a7c")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR0112"
 			(at 67.31 154.94 0)
 			(effects
 				(font
@@ -10835,7 +10997,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR053")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -10850,7 +11012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06be4341-59be-4db1-880b-0254ed641816")
-		(property "Reference" "C?"
+		(property "Reference" "C47"
 			(at 64.389 141.0716 0)
 			(effects
 				(font
@@ -10868,7 +11030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.2752 146.05 0)
 			(effects
 				(font
@@ -10930,6 +11092,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 67.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 67.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d74a077f-09b0-417d-b7ff-8ba6856ca2d7")
 		)
@@ -10939,7 +11119,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C?")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -10954,7 +11134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "135a5a41-1287-4184-af82-6ca8ac8e9ec3")
-		(property "Reference" "C?"
+		(property "Reference" "C53"
 			(at 87.249 141.0716 0)
 			(effects
 				(font
@@ -10972,7 +11152,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.1352 146.05 0)
 			(effects
 				(font
@@ -11034,6 +11214,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 90.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 90.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebd42f7d-dea3-4231-b7ab-8d08303a40b4")
 		)
@@ -11043,7 +11241,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C?")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -11059,7 +11257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16748608-9b38-441d-82cf-99b0c89462e7")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0127"
 			(at 142.24 123.19 0)
 			(effects
 				(font
@@ -11110,7 +11308,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR036")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -11126,7 +11324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1765ac20-ac8e-4e0c-95ed-9b9baa7e7156")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0136"
 			(at 254 105.41 0)
 			(effects
 				(font
@@ -11176,7 +11374,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR090")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -11192,7 +11390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f3d4569-f38e-4d38-8377-c804e96bdf91")
-		(property "Reference" "R?"
+		(property "Reference" "R95"
 			(at 252.984 115.57 90)
 			(effects
 				(font
@@ -11208,7 +11406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gkl_dipol:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 252.222 109.22 90)
 			(effects
 				(font
@@ -11270,6 +11468,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 254 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 254 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a47aaa3-7a4f-4748-951e-d77f661110d4")
 		)
@@ -11279,7 +11495,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "R?")
+					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -11295,7 +11511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2358932c-9541-4c53-9e9e-62f4744b6de7")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0131"
 			(at 185.42 44.45 0)
 			(effects
 				(font
@@ -11345,7 +11561,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR040")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -11361,7 +11577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26c06d2d-5bf4-42f7-be35-047b662215b7")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0126"
 			(at 142.24 120.65 0)
 			(effects
 				(font
@@ -11412,7 +11628,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR047")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -11428,7 +11644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28639ce8-eef1-44e6-9a5b-6d76ddf8900e")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0137"
 			(at 254 135.89 0)
 			(effects
 				(font
@@ -11478,7 +11694,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR091")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -11493,7 +11709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fc53b4e-0706-4a86-8dea-52c267f101da")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR0118"
 			(at 90.17 154.94 0)
 			(effects
 				(font
@@ -11542,7 +11758,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR055")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -11558,7 +11774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45a56cdb-2322-4d84-8b73-4aa7b3d0363c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0108"
 			(at 50.8 114.3 0)
 			(effects
 				(font
@@ -11608,7 +11824,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR027")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -11624,7 +11840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a8148aa-7f5f-4d02-8058-efeb20738070")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0110"
 			(at 50.8 165.1 0)
 			(effects
 				(font
@@ -11674,7 +11890,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR058")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -11689,7 +11905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4eed1b54-2d2e-495a-b250-405a8028706a")
-		(property "Reference" "C?"
+		(property "Reference" "C41"
 			(at 42.799 141.0716 0)
 			(effects
 				(font
@@ -11707,7 +11923,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.6852 146.05 0)
 			(effects
 				(font
@@ -11769,6 +11985,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 45.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 45.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7490489-65b5-46ff-838e-3ab3d0be815e")
 		)
@@ -11778,7 +12012,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C?")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -11793,7 +12027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4eff16d4-0bab-41b4-8e31-3bd5d9cf9a5e")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0113"
 			(at 67.31 180.34 0)
 			(effects
 				(font
@@ -11842,7 +12076,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR059")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -11858,7 +12092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54ee41ef-1e54-4683-a8b2-daba82695c71")
-		(property "Reference" "R?"
+		(property "Reference" "R93"
 			(at 218.44 118.364 90)
 			(effects
 				(font
@@ -11866,7 +12100,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 229.87 118.11 90)
 			(effects
 				(font
@@ -11874,7 +12108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gkl_dipol:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 117.602 90)
 			(effects
 				(font
@@ -11936,6 +12170,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 224.79 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 224.79 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15945357-b5ff-4c71-bec4-2f4e52562c85")
 		)
@@ -11945,7 +12197,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "R?")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -11960,7 +12212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a3a2216-d0b6-4a7c-bdaa-eff2a9d1742b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR0106"
 			(at 45.72 154.94 0)
 			(effects
 				(font
@@ -12009,7 +12261,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR051")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -12025,7 +12277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cd9a40b-9e8e-434c-8dc1-05505eded28f")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0119"
 			(at 95.25 114.3 0)
 			(effects
 				(font
@@ -12075,7 +12327,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR033")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -12091,7 +12343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65ed8d71-40c1-431b-97ab-73d078f7d329")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0125"
 			(at 142.24 118.11 0)
 			(effects
 				(font
@@ -12142,7 +12394,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR035")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -12157,7 +12409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67b5ee9e-da0b-4e36-ae7e-cc1c7401178c")
-		(property "Reference" "C?"
+		(property "Reference" "C51"
 			(at 75.311 166.4716 0)
 			(effects
 				(font
@@ -12175,7 +12427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.3552 171.45 0)
 			(effects
 				(font
@@ -12237,6 +12489,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "964fa254-1d63-492b-9362-a02fb55dc4de")
 		)
@@ -12246,7 +12516,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C?")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -12262,7 +12532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e568576-062e-458b-9075-c282814f11d0")
-		(property "Reference" "R?"
+		(property "Reference" "R91"
 			(at 209.804 56.134 90)
 			(effects
 				(font
@@ -12278,7 +12548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gkl_dipol:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 217.17 55.372 90)
 			(effects
 				(font
@@ -12340,6 +12610,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 217.17 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 217.17 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7965aafe-dcc1-47ea-927e-003e8039e834")
 		)
@@ -12349,7 +12637,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "R?")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -12365,7 +12653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70d5937d-9568-4930-8702-d151b7f69f2c")
-		(property "Reference" "R31"
+		(property "Reference" "R88"
 			(at 183.642 45.8216 0)
 			(effects
 				(font
@@ -12383,7 +12671,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gkl_dipol:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 183.642 46.99 90)
 			(effects
 				(font
@@ -12445,6 +12733,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 185.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 185.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70859ae0-9874-4593-845d-e32cb7a28200")
 		)
@@ -12454,7 +12760,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "R31")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -12470,7 +12776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74a4cd3d-6763-46a4-9751-409cce235b75")
-		(property "Reference" "D?"
+		(property "Reference" "D11"
 			(at 236.5375 111.76 0)
 			(effects
 				(font
@@ -12486,7 +12792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 234.95 119.38 0)
 			(effects
 				(font
@@ -12522,6 +12828,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 234.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 234.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "441a0d99-2dae-493c-8961-23a86a81df6c")
 		)
@@ -12531,7 +12855,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "D?")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -12547,7 +12871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e8ab016-a75f-484f-bfaf-31990fe54fa1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0135"
 			(at 226.06 57.15 0)
 			(effects
 				(font
@@ -12598,7 +12922,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR04")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -12614,7 +12938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7feacb68-2c04-46f3-9c2f-c99a345f67da")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR0116"
 			(at 72.39 165.1 0)
 			(effects
 				(font
@@ -12664,7 +12988,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR060")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -12680,7 +13004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80a41881-2d84-438e-8b5a-ef8f055ba545")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR0124"
 			(at 142.24 115.57 0)
 			(effects
 				(font
@@ -12731,7 +13055,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR048")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -12747,7 +13071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83be2b85-3c6d-445c-853f-a9210f32773d")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0133"
 			(at 215.9 161.29 0)
 			(effects
 				(font
@@ -12797,7 +13121,7 @@
 		(instances
 			(project ""
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR031")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -12813,7 +13137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88cefe76-3e6f-454d-b739-76bc404779c2")
-		(property "Reference" "R?"
+		(property "Reference" "R89"
 			(at 214.884 134.62 90)
 			(effects
 				(font
@@ -12821,7 +13145,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 214.63 123.19 90)
 			(effects
 				(font
@@ -12829,7 +13153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gkl_dipol:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 214.122 128.27 90)
 			(effects
 				(font
@@ -12891,6 +13215,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 215.9 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 215.9 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9c10ea3-b1c4-48a5-bd1e-948d5adbee80")
 		)
@@ -12900,7 +13242,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "R?")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -12917,7 +13259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91f12131-86e4-4d68-975b-0826dc441cbd")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 213.36 148.5899 0)
 			(effects
 				(font
@@ -12935,7 +13277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 213.36 147.32 0)
 			(effects
 				(font
@@ -12980,6 +13322,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac060e0e-80aa-4047-b79d-6fff35a2e4dd")
 		)
@@ -12992,7 +13352,7 @@
 		(instances
 			(project ""
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -13007,7 +13367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93e2cbc9-8e35-444e-9b40-2b7b930067f4")
-		(property "Reference" "C?"
+		(property "Reference" "C50"
 			(at 75.311 141.0716 0)
 			(effects
 				(font
@@ -13025,7 +13385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.3552 146.05 0)
 			(effects
 				(font
@@ -13087,6 +13447,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 72.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 72.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36e30239-3122-4e93-a25e-406fc2c2c54b")
 		)
@@ -13096,7 +13474,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C?")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -13111,7 +13489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99487bb2-f120-4300-9d69-14ae5d2ee38b")
-		(property "Reference" "C?"
+		(property "Reference" "C55"
 			(at 98.171 141.0716 0)
 			(effects
 				(font
@@ -13129,7 +13507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.2152 146.05 0)
 			(effects
 				(font
@@ -13191,6 +13569,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d9ad93d-7c93-463a-8810-f01f28402763")
 		)
@@ -13200,7 +13596,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C?")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -13215,7 +13611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f278c91-d496-4fad-9287-f5a7e7446935")
-		(property "Reference" "C?"
+		(property "Reference" "C48"
 			(at 64.389 166.4716 0)
 			(effects
 				(font
@@ -13233,7 +13629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.2752 171.45 0)
 			(effects
 				(font
@@ -13295,6 +13691,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06a0f024-eb42-42f3-b855-f712bcc897ac")
 		)
@@ -13304,7 +13718,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C?")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -13320,7 +13734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a145d22a-d1ad-49c6-8b30-9683f7bdcc1d")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0128"
 			(at 142.24 125.73 0)
 			(effects
 				(font
@@ -13371,7 +13785,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR038")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -13387,7 +13801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a78edaf0-65ac-4722-9e0d-99629550c8ca")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR0123"
 			(at 142.24 113.03 0)
 			(effects
 				(font
@@ -13438,7 +13852,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR049")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -13451,10 +13865,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a9b26d70-9d75-4296-b18e-cf3d81b38526")
-		(property "Reference" "TP?"
+		(property "Reference" "TP84"
 			(at 259.08 118.1099 90)
 			(effects
 				(font
@@ -13472,7 +13886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 254 124.46 0)
 			(effects
 				(font
@@ -13499,13 +13913,31 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 254 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 254 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "532b9c74-3bbc-4302-9c76-4b5becab9480")
 		)
 		(instances
 			(project ""
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "TP?")
+					(reference "TP84")
 					(unit 1)
 				)
 			)
@@ -13521,7 +13953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3e46715-aceb-4d75-8f57-0e72070bc9f8")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR0129"
 			(at 142.24 128.27 0)
 			(effects
 				(font
@@ -13572,7 +14004,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR046")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -13588,7 +14020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7b02a73-707d-4b2a-8b14-2ec0cff3e50c")
-		(property "Reference" "R?"
+		(property "Reference" "R90"
 			(at 209.804 53.594 90)
 			(effects
 				(font
@@ -13604,7 +14036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gkl_dipol:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 217.17 52.832 90)
 			(effects
 				(font
@@ -13666,6 +14098,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 217.17 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 217.17 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0086ed32-a65f-43fb-a30a-fd3d404be60c")
 		)
@@ -13675,7 +14125,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "R?")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -13691,7 +14141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba4b71a3-b2de-4655-b7ea-fa944404ab07")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0109"
 			(at 50.8 139.7 0)
 			(effects
 				(font
@@ -13741,7 +14191,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR052")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -13756,7 +14206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba55a11d-de6c-4de0-9d32-a787f2953fd9")
-		(property "Reference" "C?"
+		(property "Reference" "C42"
 			(at 42.799 166.4716 0)
 			(effects
 				(font
@@ -13774,7 +14224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.6852 171.45 0)
 			(effects
 				(font
@@ -13836,6 +14286,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 45.72 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 45.72 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3a8e9b4-b4d9-4771-a258-04bf5d5a51c1")
 		)
@@ -13845,7 +14313,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C?")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -13861,7 +14329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf07fa46-ccf4-4731-b9d2-224026e43291")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0114"
 			(at 72.39 114.3 0)
 			(effects
 				(font
@@ -13911,7 +14379,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR032")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -13927,7 +14395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf409d62-e2ee-48f7-905e-65ff17cbacba")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0122"
 			(at 142.24 110.49 0)
 			(effects
 				(font
@@ -13978,7 +14446,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR034")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -13991,10 +14459,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c5bc38e8-3411-4188-8c3f-53217c1ab463")
-		(property "Reference" "TP?"
+		(property "Reference" "TP85"
 			(at 259.08 148.5899 90)
 			(effects
 				(font
@@ -14012,7 +14480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 254 154.94 0)
 			(effects
 				(font
@@ -14039,13 +14507,31 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 254 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 254 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41110ed7-886b-43e9-b3c6-165772dc06b2")
 		)
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "TP?")
+					(reference "TP85")
 					(unit 1)
 				)
 			)
@@ -14060,7 +14546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7c26ff5-0110-4d23-9c9e-79676a3d3c9a")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0107"
 			(at 45.72 180.34 0)
 			(effects
 				(font
@@ -14109,7 +14595,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR057")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -14125,7 +14611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4291e4f-3616-40aa-bb8c-f666280b2482")
-		(property "Reference" "D?"
+		(property "Reference" "D10"
 			(at 219.71 138.7474 90)
 			(effects
 				(font
@@ -14143,7 +14629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 215.9 138.43 0)
 			(effects
 				(font
@@ -14179,6 +14665,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 215.9 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 215.9 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d8bda06e-ec69-4475-8308-8466d3de258d")
 		)
@@ -14188,7 +14692,7 @@
 		(instances
 			(project ""
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "D?")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -14204,7 +14708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d653eb17-b7e5-46a3-833f-9cd1d12a2791")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0121"
 			(at 142.24 107.95 0)
 			(effects
 				(font
@@ -14255,7 +14759,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR044")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -14270,7 +14774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7192b65-0346-46f0-bc55-031c56d900b4")
-		(property "Reference" "C?"
+		(property "Reference" "C44"
 			(at 53.721 141.0716 0)
 			(effects
 				(font
@@ -14288,7 +14792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 51.7652 146.05 0)
 			(effects
 				(font
@@ -14350,6 +14854,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 50.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 50.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db324d8d-4929-457d-a033-037e82c3528d")
 		)
@@ -14359,7 +14881,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C?")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -14375,7 +14897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7e91fa7-a023-4fff-b783-207eff0a7c6b")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0132"
 			(at 215.9 118.11 0)
 			(effects
 				(font
@@ -14425,7 +14947,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR030")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -14441,7 +14963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5de4307-9275-46d1-a21c-9f37167acb9f")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR0115"
 			(at 72.39 139.7 0)
 			(effects
 				(font
@@ -14491,7 +15013,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR054")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -14507,7 +15029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea56a7bb-74f1-450a-9ff9-08ee0acbc396")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR0120"
 			(at 95.25 139.7 0)
 			(effects
 				(font
@@ -14557,7 +15079,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "#PWR056")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -14573,7 +15095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb0cdb44-957c-41e0-a75d-37c29abc1637")
-		(property "Reference" "R?"
+		(property "Reference" "R92"
 			(at 209.804 58.674 90)
 			(effects
 				(font
@@ -14589,7 +15111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gkl_dipol:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 217.17 57.912 90)
 			(effects
 				(font
@@ -14651,6 +15173,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 217.17 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 217.17 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55d6cbe6-405e-4342-aebd-e4be91e5fc8c")
 		)
@@ -14660,7 +15200,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "R?")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -14675,7 +15215,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd6417d0-da65-40c9-9b85-6e35833bc5e7")
-		(property "Reference" "C?"
+		(property "Reference" "C45"
 			(at 53.721 166.4716 0)
 			(effects
 				(font
@@ -14693,7 +15233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "gkl_dipol:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 51.7652 171.45 0)
 			(effects
 				(font
@@ -14755,6 +15295,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86619c87-4aa2-4b83-884f-ae08eeac9e8e")
 		)
@@ -14764,7 +15322,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "C?")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -14780,7 +15338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd9cff14-9f27-471b-bd47-51be9aef4b28")
-		(property "Reference" "R?"
+		(property "Reference" "R96"
 			(at 252.984 146.05 90)
 			(effects
 				(font
@@ -14796,7 +15354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gkl_dipol:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 252.222 139.7 90)
 			(effects
 				(font
@@ -14858,6 +15416,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 254 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 254 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91bc065b-f78b-42d6-9554-7ca39353e2a0")
 		)
@@ -14867,7 +15443,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/12e9a14f-df84-4ea1-a186-cc5705defdaf"
-					(reference "R?")
+					(reference "R96")
 					(unit 1)
 				)
 			)

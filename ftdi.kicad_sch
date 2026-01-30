@@ -4760,7 +4760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dda7a1b")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR074"
 			(at 36.83 151.13 0)
 			(effects
 				(font
@@ -4810,7 +4810,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR03")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4825,7 +4825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ddd2aeb")
-		(property "Reference" "R1"
+		(property "Reference" "R41"
 			(at 49.53 140.97 90)
 			(effects
 				(font
@@ -4833,7 +4833,7 @@
 				)
 			)
 		)
-		(property "Value" "12K"
+		(property "Value" "12k"
 			(at 55.88 140.97 90)
 			(effects
 				(font
@@ -4868,6 +4868,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 52.07 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 52.07 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68a209d5-0464-43a2-a9b3-e25b1b1660d3")
 		)
@@ -4877,7 +4895,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R1")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -4892,7 +4910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e1aa337")
-		(property "Reference" "TP11"
+		(property "Reference" "TP1"
 			(at 233.68 87.63 90)
 			(effects
 				(font
@@ -4938,13 +4956,31 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 233.68 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 233.68 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "048eae62-e02b-400c-b9fc-ce39449d7544")
 		)
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "TP11")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4959,7 +4995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e32efc1")
-		(property "Reference" "R18"
+		(property "Reference" "R39"
 			(at 39.37 121.92 90)
 			(effects
 				(font
@@ -4967,7 +5003,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 46.99 121.92 90)
 			(effects
 				(font
@@ -5002,6 +5038,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 43.18 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 43.18 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1581aed6-a3ef-424e-8f89-1fb03c8578d4")
 		)
@@ -5011,7 +5065,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R18")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -5026,7 +5080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef8a5cb")
-		(property "Reference" "R4"
+		(property "Reference" "R40"
 			(at 39.37 124.46 90)
 			(effects
 				(font
@@ -5034,7 +5088,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 46.99 124.46 90)
 			(effects
 				(font
@@ -5069,6 +5123,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 43.18 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 43.18 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1d5f419-0e1c-4d87-bc3f-4dcd7ad905b2")
 		)
@@ -5078,7 +5150,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R4")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -5093,7 +5165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f00afea")
-		(property "Reference" "C3"
+		(property "Reference" "C22"
 			(at 24.511 146.1516 0)
 			(effects
 				(font
@@ -5102,7 +5174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 24.511 148.463 0)
 			(effects
 				(font
@@ -5138,6 +5210,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 21.59 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 21.59 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "effef548-e67c-437b-aa65-08f2ed690e79")
 		)
@@ -5147,7 +5237,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C3")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -5162,7 +5252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f00c7bc")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR072"
 			(at 21.59 157.48 0)
 			(effects
 				(font
@@ -5212,7 +5302,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR011")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -5228,7 +5318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0533a9d2-7d6e-482c-a1b5-1d0b39a83d3a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR073"
 			(at 36.83 124.46 0)
 			(effects
 				(font
@@ -5278,7 +5368,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR024")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5293,7 +5383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06c5e50f-c242-4bb6-a65d-6030a487f8f0")
-		(property "Reference" "R?"
+		(property "Reference" "R49"
 			(at 180.848 81.026 90)
 			(effects
 				(font
@@ -5336,6 +5426,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 176.53 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 176.53 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d5d7824-a2f6-4752-85ad-2830cf096754")
 		)
@@ -5345,7 +5453,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5360,7 +5468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ce41108-a89a-474d-8bff-ee9188340510")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR085"
 			(at 157.48 73.66 0)
 			(effects
 				(font
@@ -5410,7 +5518,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR063")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -5426,7 +5534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ee3b96b-6914-4341-897f-9ee6c13397b8")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR089"
 			(at 219.71 95.25 0)
 			(effects
 				(font
@@ -5476,7 +5584,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR05")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -5491,7 +5599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "135cb484-c9a1-449b-8ac6-b4f82b100f74")
-		(property "Reference" "R?"
+		(property "Reference" "R55"
 			(at 197.358 145.796 90)
 			(effects
 				(font
@@ -5534,6 +5642,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 193.04 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 193.04 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35334057-e97a-427b-8922-76f86f1b7ce8")
 		)
@@ -5543,7 +5669,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -5558,7 +5684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21630bf8-c8cb-467c-b581-227e699ac4ed")
-		(property "Reference" "R?"
+		(property "Reference" "R50"
 			(at 180.848 119.126 90)
 			(effects
 				(font
@@ -5601,6 +5727,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 176.53 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 176.53 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4eccf0b-af82-4771-8006-ff83728dd80a")
 		)
@@ -5610,7 +5754,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -5625,7 +5769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21f082b5-8971-4bdc-aa79-63b1119e0a6f")
-		(property "Reference" "U?"
+		(property "Reference" "U6"
 			(at 92.964 63.754 0)
 			(effects
 				(font
@@ -5662,6 +5806,24 @@
 			)
 		)
 		(property "Description" "Hi Speed Double Channel USB UART/FIFO, LQFP-64"
+			(at 121.92 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 121.92 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 121.92 123.19 0)
 			(effects
 				(font
@@ -5865,7 +6027,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "U?")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5880,7 +6042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23406934-6943-4223-8f3e-cb4cd19b0972")
-		(property "Reference" "R?"
+		(property "Reference" "R44"
 			(at 82.55 105.664 90)
 			(effects
 				(font
@@ -5888,7 +6050,7 @@
 				)
 			)
 		)
-		(property "Value" "12K"
+		(property "Value" "12k"
 			(at 87.63 105.41 90)
 			(effects
 				(font
@@ -5923,6 +6085,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 83.82 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 83.82 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "afdbff21-8616-4d3a-9127-89e744f25780")
 		)
@@ -5932,7 +6112,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -5947,7 +6127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23e8627f-9684-4a79-87c7-38e2ad123a44")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 29.845 128.27 0)
 			(effects
 				(font
@@ -5990,6 +6170,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 36.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 36.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4d23c70-8076-4275-9e8d-91ce1d50d99c")
 		)
@@ -6011,7 +6209,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6026,7 +6224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28eab8bf-adbe-40f3-9a24-823ac7d893a5")
-		(property "Reference" "R?"
+		(property "Reference" "R52"
 			(at 177.546 129.032 90)
 			(effects
 				(font
@@ -6034,7 +6232,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 177.8 137.922 90)
 			(effects
 				(font
@@ -6069,6 +6267,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 179.07 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 179.07 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f6cfb1a-585d-4ce3-aa22-d2b243a52058")
 		)
@@ -6078,7 +6294,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -6093,7 +6309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2df39048-907d-4e80-93be-e1e0dfd949d9")
-		(property "Reference" "R?"
+		(property "Reference" "R56"
 			(at 222.25 83.82 90)
 			(effects
 				(font
@@ -6101,7 +6317,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 222.25 90.17 90)
 			(effects
 				(font
@@ -6136,6 +6352,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 219.71 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 219.71 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0988cd0b-1c7a-4d24-af7a-f4cd2af3dfa4")
 		)
@@ -6145,7 +6379,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -6161,7 +6395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "309882b6-b85f-41e7-a9a6-d1b9d6f87f30")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR086"
 			(at 175.26 127 0)
 			(effects
 				(font
@@ -6212,7 +6446,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR010")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -6227,7 +6461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30b14d27-e7fe-4e1f-9175-1ab48082bd91")
-		(property "Reference" "R17"
+		(property "Reference" "R38"
 			(at 26.67 121.92 90)
 			(effects
 				(font
@@ -6235,7 +6469,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 34.29 121.92 90)
 			(effects
 				(font
@@ -6270,6 +6504,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 30.48 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 30.48 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ce87471-5247-45f9-bf05-da0d043e1be3")
 		)
@@ -6279,7 +6531,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R17")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -6294,7 +6546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3176732b-e294-4005-b824-57829f67d3aa")
-		(property "Reference" "C?"
+		(property "Reference" "C32"
 			(at 176.911 61.0616 0)
 			(effects
 				(font
@@ -6303,7 +6555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 176.911 63.373 0)
 			(effects
 				(font
@@ -6339,6 +6591,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eae34c63-4a8b-4f86-bd1a-7c65b4d7a0c6")
 		)
@@ -6348,7 +6618,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -6363,7 +6633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32876b1c-aa8f-4219-8eed-7a58774b753c")
-		(property "Reference" "C?"
+		(property "Reference" "C27"
 			(at 141.351 43.2816 0)
 			(effects
 				(font
@@ -6372,7 +6642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 141.351 45.593 0)
 			(effects
 				(font
@@ -6408,6 +6678,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3d477ba-b3fa-4089-80c0-9597cf02b40c")
 		)
@@ -6417,7 +6705,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -6432,7 +6720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35db1238-62fb-4b7e-80ea-78e57932fb4f")
-		(property "Reference" "R?"
+		(property "Reference" "R48"
 			(at 180.848 78.486 90)
 			(effects
 				(font
@@ -6475,6 +6763,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 176.53 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 176.53 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f61650d-cd3a-4a2e-aa71-d277dd6d1d5c")
 		)
@@ -6484,7 +6790,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -6500,7 +6806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38ee8573-9683-452c-b44b-61a30b079be8")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR082"
 			(at 138.43 44.45 0)
 			(effects
 				(font
@@ -6550,7 +6856,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR067")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -6565,7 +6871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a771c0d-bcb8-4cc7-b683-f9750c47510a")
-		(property "Reference" "C?"
+		(property "Reference" "C23"
 			(at 41.021 171.5516 0)
 			(effects
 				(font
@@ -6610,6 +6916,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 38.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 38.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8d599fa-f122-42d6-8c6b-f66d1bc68a79")
 		)
@@ -6619,7 +6943,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -6634,7 +6958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e46ff0a-0c45-4bc1-9236-4a55570f1475")
-		(property "Reference" "C?"
+		(property "Reference" "C37"
 			(at 207.391 50.9016 0)
 			(effects
 				(font
@@ -6643,7 +6967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 207.391 53.213 0)
 			(effects
 				(font
@@ -6652,7 +6976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 205.4352 55.88 0)
 			(effects
 				(font
@@ -6679,6 +7003,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 204.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 204.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fe727ae-3c84-4dc8-bbd2-dc5b192bfd76")
 		)
@@ -6688,7 +7030,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -6703,7 +7045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40bec806-bbfd-42a1-9ce4-93dd1be1f1f1")
-		(property "Reference" "R?"
+		(property "Reference" "R45"
 			(at 172.466 129.032 90)
 			(effects
 				(font
@@ -6711,7 +7053,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 172.72 137.922 90)
 			(effects
 				(font
@@ -6746,6 +7088,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 173.99 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 173.99 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b54c68f-65ea-472a-9978-693101b34644")
 		)
@@ -6755,7 +7115,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -6770,7 +7130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a2f8dfd-fd84-4df2-b4ef-b04fe15517b3")
-		(property "Reference" "C?"
+		(property "Reference" "C35"
 			(at 194.691 50.9016 0)
 			(effects
 				(font
@@ -6779,7 +7139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 194.691 53.213 0)
 			(effects
 				(font
@@ -6815,6 +7175,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 191.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 191.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2981f3b6-1789-45fc-acd0-097c429c43c5")
 		)
@@ -6824,7 +7202,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -6839,7 +7217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5123b7e7-a063-40ad-bea9-0b4e562a40f5")
-		(property "Reference" "R?"
+		(property "Reference" "R54"
 			(at 197.358 143.256 90)
 			(effects
 				(font
@@ -6882,6 +7260,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 193.04 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 193.04 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b908778-9c55-4399-8c4a-ceeb2a9fc129")
 		)
@@ -6891,7 +7287,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -6906,7 +7302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "548267ae-8883-40a3-a2c8-54ca607cd179")
-		(property "Reference" "C?"
+		(property "Reference" "C34"
 			(at 194.691 36.9316 0)
 			(effects
 				(font
@@ -6915,7 +7311,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 194.691 39.243 0)
 			(effects
 				(font
@@ -6951,6 +7347,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 191.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 191.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2f62b7c-c4d6-4370-9179-1a9146efbf0d")
 		)
@@ -6960,7 +7374,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -6975,7 +7389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "630e8d16-f708-4be9-a80c-498e9e136a08")
-		(property "Reference" "C?"
+		(property "Reference" "C26"
 			(at 131.191 43.2816 0)
 			(effects
 				(font
@@ -6984,7 +7398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 131.191 45.593 0)
 			(effects
 				(font
@@ -7020,6 +7434,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 128.27 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 128.27 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6aaa58a-d49c-4a56-b76b-dcfe437ba4ae")
 		)
@@ -7029,7 +7461,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -7044,7 +7476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "636cac55-d092-48bd-bab7-41bd528dd716")
-		(property "Reference" "FB?"
+		(property "Reference" "FB3"
 			(at 181.61 44.45 90)
 			(effects
 				(font
@@ -7087,6 +7519,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 181.61 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 181.61 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80e22df1-f80e-4cee-a790-2b67b1cb62b7")
 		)
@@ -7096,7 +7546,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "FB?")
+					(reference "FB3")
 					(unit 1)
 				)
 			)
@@ -7111,7 +7561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "639333a5-d9d7-48d0-93b6-b94a8c2d733a")
-		(property "Reference" "R?"
+		(property "Reference" "R42"
 			(at 78.74 110.744 90)
 			(effects
 				(font
@@ -7119,7 +7569,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 77.724 115.57 90)
 			(effects
 				(font
@@ -7154,6 +7604,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 78.74 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 78.74 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16d3e1fc-9077-4a31-80a8-1bf38cdbe5b4")
 		)
@@ -7163,7 +7631,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -7178,7 +7646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63c757af-0296-4dc7-b462-6a99cf9023ea")
-		(property "Reference" "C?"
+		(property "Reference" "C28"
 			(at 146.431 61.0616 0)
 			(effects
 				(font
@@ -7187,7 +7655,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 146.431 63.373 0)
 			(effects
 				(font
@@ -7223,6 +7691,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e88b456-ecf5-45df-ab0f-df48c170630a")
 		)
@@ -7232,7 +7718,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -7247,7 +7733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68f04556-303a-4ac6-9d23-2f5800a45ca3")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR083"
 			(at 138.43 55.88 0)
 			(effects
 				(font
@@ -7297,7 +7783,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR066")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -7313,7 +7799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c3c12b7-22a1-46c7-99fc-c7ee1c7e9137")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR090"
 			(at 227.33 57.15 0)
 			(effects
 				(font
@@ -7363,7 +7849,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR061")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -7379,7 +7865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c573da4-1134-42cf-a156-11eb11982a70")
-		(property "Reference" "C?"
+		(property "Reference" "C25"
 			(at 83.4644 82.6516 0)
 			(effects
 				(font
@@ -7397,7 +7883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 87.3252 80.01 0)
 			(effects
 				(font
@@ -7459,6 +7945,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "569eb7ec-e901-47e6-9acb-509b1fb430a8")
 		)
@@ -7468,7 +7972,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -7483,7 +7987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "743f6f56-9855-4e31-a917-d97eef604dc8")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR075"
 			(at 50.8 182.88 0)
 			(effects
 				(font
@@ -7533,7 +8037,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR014")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -7549,7 +8053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b3a74d7-ad22-4599-809b-499dc87a5942")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR076"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -7600,7 +8104,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR070")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -7615,7 +8119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "886e9e27-80fe-4b07-a61c-b45a897ec886")
-		(property "Reference" "FB?"
+		(property "Reference" "FB2"
 			(at 181.61 38.1 90)
 			(effects
 				(font
@@ -7658,6 +8162,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 181.61 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 181.61 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44f02aa2-1a4e-43db-9f39-f138275a705a")
 		)
@@ -7667,7 +8189,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "FB?")
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -7682,7 +8204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88cfe2cb-1d40-4ea8-9030-7d0f1ab40f65")
-		(property "Reference" "C?"
+		(property "Reference" "C31"
 			(at 166.751 61.0616 0)
 			(effects
 				(font
@@ -7691,7 +8213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 166.751 63.373 0)
 			(effects
 				(font
@@ -7727,6 +8249,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5dc5edf6-301b-4a45-9b04-83242c1bff70")
 		)
@@ -7736,7 +8276,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -7751,7 +8291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b83de7e-78cd-4005-b148-652d64b26934")
-		(property "Reference" "C?"
+		(property "Reference" "C29"
 			(at 151.511 43.2816 0)
 			(effects
 				(font
@@ -7760,7 +8300,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 151.511 45.593 0)
 			(effects
 				(font
@@ -7796,6 +8336,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8b27911-b226-4279-95f2-654c4b99c19a")
 		)
@@ -7805,7 +8363,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -7820,7 +8378,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "924788c6-8d2d-4126-91f1-75563c5b1490")
-		(property "Reference" "R?"
+		(property "Reference" "R57"
 			(at 219.71 64.77 90)
 			(effects
 				(font
@@ -7828,7 +8386,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 219.71 58.42 90)
 			(effects
 				(font
@@ -7863,6 +8421,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 222.25 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 222.25 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d96f97be-bd53-4775-8ff7-488aa5b2a443")
 		)
@@ -7872,7 +8448,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -7887,7 +8463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95fed67f-b730-49f8-bc8a-5c53f9529e21")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR081"
 			(at 118.11 189.23 0)
 			(effects
 				(font
@@ -7937,7 +8513,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR012")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -7952,7 +8528,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "963bc80f-02c4-4756-8276-0fa43e1dc510")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR088"
 			(at 191.77 62.23 0)
 			(effects
 				(font
@@ -8002,7 +8578,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR065")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -8017,7 +8593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "968c2197-5ca3-4b2a-b7c4-887a13f89e5b")
-		(property "Reference" "R?"
+		(property "Reference" "R47"
 			(at 180.848 75.946 90)
 			(effects
 				(font
@@ -8060,6 +8636,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 176.53 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 176.53 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d867131-edb6-4c61-8bb3-10e8d7a7d590")
 		)
@@ -8069,7 +8663,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -8084,7 +8678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a01da458-ca85-497d-8b2c-177b6274fabb")
-		(property "Reference" "R?"
+		(property "Reference" "R46"
 			(at 180.848 73.406 90)
 			(effects
 				(font
@@ -8127,6 +8721,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 176.53 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 176.53 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b227c74-0eb3-4335-82a8-93946d0d80a6")
 		)
@@ -8136,7 +8748,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -8152,7 +8764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adf3f0d8-454c-4c6d-87d0-2d347e611efb")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR080"
 			(at 86.36 93.98 0)
 			(effects
 				(font
@@ -8202,7 +8814,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR069")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -8217,7 +8829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5400198-f09e-42b1-8b89-48d9f0f3abc6")
-		(property "Reference" "R?"
+		(property "Reference" "R58"
 			(at 224.79 64.77 90)
 			(effects
 				(font
@@ -8225,7 +8837,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 224.79 58.42 90)
 			(effects
 				(font
@@ -8260,6 +8872,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 227.33 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 227.33 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea163910-d3f1-4696-a5c7-bf271e3ca8ab")
 		)
@@ -8269,7 +8899,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -8284,7 +8914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6e5271c-c05f-487e-b9e8-fc2355917f5a")
-		(property "Reference" "R?"
+		(property "Reference" "R51"
 			(at 180.848 121.666 90)
 			(effects
 				(font
@@ -8327,6 +8957,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 176.53 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 176.53 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "610a2145-88a5-4d98-8e2d-cc5009b59055")
 		)
@@ -8336,7 +8984,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -8352,7 +9000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd0e4cd0-eae3-4442-851f-93284db3def1")
-		(property "Reference" "Y?"
+		(property "Reference" "Y1"
 			(at 50.8 158.75 0)
 			(effects
 				(font
@@ -8368,7 +9016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
 			(at 50.8 167.64 0)
 			(effects
 				(font
@@ -8430,7 +9078,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "Y?")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -8445,7 +9093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4cb7e8a-96b1-4ee7-9c1f-fa3e161de991")
-		(property "Reference" "C?"
+		(property "Reference" "C30"
 			(at 156.591 61.0616 0)
 			(effects
 				(font
@@ -8454,7 +9102,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 156.591 63.373 0)
 			(effects
 				(font
@@ -8490,6 +9138,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 153.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 153.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13d539dd-1e3f-4e4a-a761-abb0193792e5")
 		)
@@ -8499,7 +9165,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -8515,7 +9181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5ec5216-f45c-4895-8ce6-f4d2e3e1b372")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR078"
 			(at 90.17 74.93 0)
 			(effects
 				(font
@@ -8566,7 +9232,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR09")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -8581,7 +9247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "caab4905-dfe3-4ab4-9cb4-7e4088a0aa7f")
-		(property "Reference" "R?"
+		(property "Reference" "R53"
 			(at 197.358 140.716 90)
 			(effects
 				(font
@@ -8624,6 +9290,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 193.04 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 193.04 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "543e71fd-db0d-4aac-90ba-9796709baf28")
 		)
@@ -8633,7 +9317,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -8649,7 +9333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbc6a105-6f9b-4886-a7f1-f450f596898d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR077"
 			(at 80.01 113.03 0)
 			(effects
 				(font
@@ -8699,7 +9383,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR08")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -8714,7 +9398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd570740-20bd-492d-9873-1ad0e4748b32")
-		(property "Reference" "C?"
+		(property "Reference" "C24"
 			(at 63.881 171.5516 0)
 			(effects
 				(font
@@ -8759,6 +9443,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 60.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 60.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "976b71f1-31c7-4e87-a923-2375ea41156d")
 		)
@@ -8768,7 +9470,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -8784,7 +9486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d65da4e9-0b34-4a16-96d7-34e15880218d")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR079"
 			(at 90.17 80.01 0)
 			(effects
 				(font
@@ -8835,7 +9537,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR068")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -8850,7 +9552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebd1d8e9-6579-4774-8c22-231fec6620cf")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR087"
 			(at 191.77 48.26 0)
 			(effects
 				(font
@@ -8900,7 +9602,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR064")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -8915,7 +9617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec1e2cb5-0b45-4929-8ec7-881c5bf05ab6")
-		(property "Reference" "C?"
+		(property "Reference" "C36"
 			(at 207.391 36.9316 0)
 			(effects
 				(font
@@ -8924,7 +9626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 207.391 39.243 0)
 			(effects
 				(font
@@ -8933,7 +9635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 205.4352 41.91 0)
 			(effects
 				(font
@@ -8960,6 +9662,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 204.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 204.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0cff609-874e-43c5-8266-40f5af3d1424")
 		)
@@ -8969,7 +9689,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -8984,7 +9704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f024df8c-069e-488c-a2a3-a181d7c394d9")
-		(property "Reference" "C?"
+		(property "Reference" "C33"
 			(at 187.0456 61.0616 0)
 			(effects
 				(font
@@ -9002,7 +9722,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 183.1848 58.42 0)
 			(effects
 				(font
@@ -9064,6 +9784,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf51bd66-c115-4b49-a4b2-b4af7692ddc2")
 		)
@@ -9073,7 +9811,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "C?")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -9088,7 +9826,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f33d2ea5-b960-4a44-bf93-be9a9a567e4a")
-		(property "Reference" "R?"
+		(property "Reference" "R59"
 			(at 229.87 64.77 90)
 			(effects
 				(font
@@ -9096,7 +9834,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 229.87 58.42 90)
 			(effects
 				(font
@@ -9131,6 +9869,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 232.41 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 232.41 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df3a752b-5ab7-45a9-8c9e-3720d832b272")
 		)
@@ -9140,7 +9896,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -9155,7 +9911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6fee354-2567-4e3c-8fc4-d8886b93f849")
-		(property "Reference" "R?"
+		(property "Reference" "R43"
 			(at 83.82 168.91 90)
 			(effects
 				(font
@@ -9198,6 +9954,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 81.28 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 81.28 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb7de794-d793-4a24-a761-ace32e1f8590")
 		)
@@ -9207,7 +9981,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R?")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -9223,7 +9997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc997e6a-ceae-4353-8e02-a19fd4c037ea")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR084"
 			(at 157.48 62.23 0)
 			(effects
 				(font
@@ -9273,7 +10047,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR062")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -9289,7 +10063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdd5ac06-6870-4dbf-bb55-7da79171148c")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR071"
 			(at 21.59 147.32 0)
 			(effects
 				(font
@@ -9339,7 +10113,7 @@
 		(instances
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "#PWR02")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
