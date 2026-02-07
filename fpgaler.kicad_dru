@@ -1,0 +1,12 @@
+(version 1)
+
+(rule "Pad to Track Clearance"
+    (constraint clearance (min 0.089mm))
+    (condition "A.Type == 'Pad' && A.Size == 0.23mm && B.Type == 'Track'"))
+
+(rule "BGA neckdown"
+    (constraint track_width (min 0.088mm) (opt 0.089mm))
+    (constraint clearance (min 0.089mm) (opt 0.089mm))
+	(constraint hole_to_hole (min 0.089mm))
+	(constraint hole_clearance (min 0.089mm))
+    (condition "A.intersectsCourtyard('U8')"))
