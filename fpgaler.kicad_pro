@@ -516,7 +516,7 @@
       {
         "clearance": 0.15,
         "name": "Power",
-        "pcb_color": "rgb(0, 194, 0)",
+        "pcb_color": "rgb(0, 194, 194)",
         "priority": 0,
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.15,
@@ -528,7 +528,128 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/FPGA/A0": [
+        "SRAM"
+      ],
+      "/FPGA/A1": [
+        "SRAM"
+      ],
+      "/FPGA/A10": [
+        "SRAM"
+      ],
+      "/FPGA/A11": [
+        "SRAM"
+      ],
+      "/FPGA/A12": [
+        "SRAM"
+      ],
+      "/FPGA/A13": [
+        "SRAM"
+      ],
+      "/FPGA/A14": [
+        "SRAM"
+      ],
+      "/FPGA/A15": [
+        "SRAM"
+      ],
+      "/FPGA/A16": [
+        "SRAM"
+      ],
+      "/FPGA/A17": [
+        "SRAM"
+      ],
+      "/FPGA/A18": [
+        "SRAM"
+      ],
+      "/FPGA/A2": [
+        "SRAM"
+      ],
+      "/FPGA/A3": [
+        "SRAM"
+      ],
+      "/FPGA/A4": [
+        "SRAM"
+      ],
+      "/FPGA/A5": [
+        "SRAM"
+      ],
+      "/FPGA/A6": [
+        "SRAM"
+      ],
+      "/FPGA/A7": [
+        "SRAM"
+      ],
+      "/FPGA/A8": [
+        "SRAM"
+      ],
+      "/FPGA/A9": [
+        "SRAM"
+      ],
+      "/FPGA/IO00": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO01": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO02": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO03": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO04": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO05": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO06": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO07": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO08": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO09": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO10": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO11": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO12": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO13": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO14": [
+        "SRAM_IO"
+      ],
+      "/FPGA/IO15": [
+        "SRAM_IO"
+      ],
+      "/FPGA/~{CS1}": [
+        "SRAM_CMD"
+      ],
+      "/FPGA/~{LB}": [
+        "SRAM_CMD"
+      ],
+      "/FPGA/~{OE}": [
+        "SRAM_CMD"
+      ],
+      "/FPGA/~{UB}": [
+        "SRAM_CMD"
+      ],
+      "/FPGA/~{WE}": [
+        "SRAM_CMD"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -707,6 +828,42 @@
           "group_by": false,
           "label": "KLC_S4.1",
           "name": "KLC_S4.1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Note",
+          "name": "Note",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Name",
+          "name": "LCSC Part Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
           "show": false
         }
       ],
