@@ -7922,7 +7922,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 134.62) (xy 254 134.62)
+			(xy 250.19 134.62) (xy 260.35 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7939,16 +7939,6 @@
 			(type default)
 		)
 		(uuid "04f5a198-1709-423c-a017-f73a64e6049a")
-	)
-	(wire
-		(pts
-			(xy 180.34 39.37) (xy 184.15 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "054ec120-4ab6-4675-8367-074472f4dc87")
 	)
 	(wire
 		(pts
@@ -7972,7 +7962,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 34.29) (xy 184.15 34.29)
+			(xy 180.34 34.29) (xy 198.12 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8002,7 +7992,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 142.24) (xy 254 142.24)
+			(xy 250.19 142.24) (xy 260.35 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8062,7 +8052,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 129.54) (xy 254 129.54)
+			(xy 250.19 129.54) (xy 260.35 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8379,16 +8369,6 @@
 			(type default)
 		)
 		(uuid "477160e4-e4a0-4795-9b8f-3804385b7cdf")
-	)
-	(wire
-		(pts
-			(xy 180.34 54.61) (xy 194.31 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48d0eddb-2d6e-4b70-8082-5cbe95803093")
 	)
 	(wire
 		(pts
@@ -8752,7 +8732,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 139.7) (xy 254 139.7)
+			(xy 250.19 139.7) (xy 260.985 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8952,16 +8932,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 151.13) (xy 52.07 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91b047c0-1b54-4487-996c-d81c1339cf2a")
-	)
-	(wire
-		(pts
 			(xy 125.73 54.61) (xy 129.54 54.61)
 		)
 		(stroke
@@ -9032,7 +9002,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 132.08) (xy 254 132.08)
+			(xy 250.19 132.08) (xy 260.35 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9152,16 +9122,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 146.05) (xy 52.07 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5ce9326-b04a-46da-813c-e6e11c391e1f")
-	)
-	(wire
-		(pts
 			(xy 109.22 49.53) (xy 118.11 49.53)
 		)
 		(stroke
@@ -9222,7 +9182,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 124.46) (xy 254 124.46)
+			(xy 250.19 124.46) (xy 260.35 124.46)
 		)
 		(stroke
 			(width 0)
@@ -9282,7 +9242,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 144.78) (xy 254 144.78)
+			(xy 250.19 144.78) (xy 260.35 144.78)
 		)
 		(stroke
 			(width 0)
@@ -9502,7 +9462,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 41.91) (xy 184.15 41.91)
+			(xy 180.34 41.91) (xy 194.31 41.91)
 		)
 		(stroke
 			(width 0)
@@ -9532,16 +9492,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 148.59) (xy 52.07 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d078f423-fcbe-4f55-9648-f9018e02ec64")
-	)
-	(wire
-		(pts
 			(xy 147.32 124.46) (xy 151.13 124.46)
 		)
 		(stroke
@@ -9562,7 +9512,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 36.83) (xy 184.15 36.83)
+			(xy 180.34 36.83) (xy 198.12 36.83)
 		)
 		(stroke
 			(width 0)
@@ -9759,16 +9709,6 @@
 			(type default)
 		)
 		(uuid "e68811fa-f249-4c6d-9c5b-0bfcfad54b9d")
-	)
-	(wire
-		(pts
-			(xy 180.34 49.53) (xy 194.31 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6964191-00b0-45ba-a99b-71c2c10407b9")
 	)
 	(wire
 		(pts
@@ -10121,7 +10061,7 @@
 		)
 	)
 	(label "A2"
-		(at 191.77 49.53 180)
+		(at 195.58 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10130,7 +10070,7 @@
 		)
 		(uuid "1e7cff7c-d45f-4bec-b4d1-e4a678bb2ec7")
 		(property "Netclass" "SRAM"
-			(at 198.12 48.26 0)
+			(at 201.93 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10251,7 +10191,7 @@
 		)
 	)
 	(label "~{OE}"
-		(at 57.15 146.05 180)
+		(at 260.35 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10260,7 +10200,7 @@
 		)
 		(uuid "2e46ca40-f3a1-4268-9fbd-e962d27fab61")
 		(property "Netclass" "SRAM_CMD"
-			(at 67.31 144.78 0)
+			(at 270.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10271,7 +10211,7 @@
 		)
 	)
 	(label "IO15"
-		(at 57.15 138.43 180)
+		(at 260.35 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10280,7 +10220,7 @@
 		)
 		(uuid "32a14ed6-12c1-4517-83cc-6440791f68c8")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 137.16 0)
+			(at 270.51 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10522,7 +10462,7 @@
 		)
 	)
 	(label "A7"
-		(at 189.23 62.23 180)
+		(at 260.35 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10531,7 +10471,7 @@
 		)
 		(uuid "5e60e8b7-924b-4228-b56e-002eba5ab665")
 		(property "Netclass" "SRAM"
-			(at 195.58 60.96 0)
+			(at 266.7 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10623,7 +10563,7 @@
 		)
 	)
 	(label "~{LB}"
-		(at 57.15 151.13 180)
+		(at 260.35 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10632,7 +10572,7 @@
 		)
 		(uuid "69a75ff8-21cd-46e3-81a9-dfe0cc335c3a")
 		(property "Netclass" "SRAM_CMD"
-			(at 67.31 149.86 0)
+			(at 270.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10683,7 +10623,7 @@
 		)
 	)
 	(label "IO13"
-		(at 57.15 133.35 180)
+		(at 191.77 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10692,7 +10632,7 @@
 		)
 		(uuid "6e48b1ac-92c5-49bd-b31c-d22f383b96d5")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 132.08 0)
+			(at 201.93 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10863,7 +10803,7 @@
 		)
 	)
 	(label "A3"
-		(at 191.77 52.07 180)
+		(at 203.2 50.165 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10872,7 +10812,7 @@
 		)
 		(uuid "8fe515c4-f2de-43ec-9e06-add457d986aa")
 		(property "Netclass" "SRAM"
-			(at 198.12 50.8 0)
+			(at 209.55 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10943,7 +10883,7 @@
 		)
 	)
 	(label "IO14"
-		(at 57.15 135.89 180)
+		(at 191.77 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10952,7 +10892,7 @@
 		)
 		(uuid "9a01066a-1bbf-401c-8196-15a9165468d9")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 134.62 0)
+			(at 201.93 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,7 +10923,7 @@
 		)
 	)
 	(label "~{UB}"
-		(at 57.15 148.59 180)
+		(at 260.35 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10992,7 +10932,7 @@
 		)
 		(uuid "9d173e6a-ed47-4471-8cf6-6d5a7bc05bde")
 		(property "Netclass" "SRAM_CMD"
-			(at 67.31 147.32 0)
+			(at 270.51 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11343,7 +11283,7 @@
 		(uuid "ce75c242-fe93-48cb-8cd0-c8a8b954d03b")
 	)
 	(label "A6"
-		(at 189.23 59.69 180)
+		(at 260.35 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11352,7 +11292,7 @@
 		)
 		(uuid "cf9e1738-e401-4ebd-9643-86f25e3ea1b0")
 		(property "Netclass" "SRAM"
-			(at 195.58 58.42 0)
+			(at 266.7 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11383,7 +11323,7 @@
 		)
 	)
 	(label "A4"
-		(at 191.77 54.61 180)
+		(at 260.35 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11392,7 +11332,7 @@
 		)
 		(uuid "dda88d78-6b06-498b-94a8-ba4630f6630b")
 		(property "Netclass" "SRAM"
-			(at 198.12 53.34 0)
+			(at 266.7 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11855,7 +11795,7 @@
 	)
 	(hierarchical_label "VGA_G2"
 		(shape input)
-		(at 254 137.16 0)
+		(at 299.085 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11910,7 +11850,7 @@
 	)
 	(hierarchical_label "VGA_G1"
 		(shape input)
-		(at 254 134.62 0)
+		(at 299.085 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11921,7 +11861,7 @@
 	)
 	(hierarchical_label "VGA_G0"
 		(shape input)
-		(at 254 132.08 0)
+		(at 299.085 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11954,7 +11894,7 @@
 	)
 	(hierarchical_label "VGA_R0"
 		(shape input)
-		(at 254 124.46 0)
+		(at 299.085 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11965,7 +11905,7 @@
 	)
 	(hierarchical_label "VGA_R2"
 		(shape input)
-		(at 254 129.54 0)
+		(at 299.085 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11976,7 +11916,7 @@
 	)
 	(hierarchical_label "VGA_B2"
 		(shape input)
-		(at 254 144.78 0)
+		(at 299.085 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12020,7 +11960,7 @@
 	)
 	(hierarchical_label "VGA_VSYNC"
 		(shape input)
-		(at 254 149.86 0)
+		(at 299.085 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12097,7 +12037,7 @@
 	)
 	(hierarchical_label "VGA_HSYNC"
 		(shape input)
-		(at 254 147.32 0)
+		(at 299.085 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12174,7 +12114,7 @@
 	)
 	(hierarchical_label "VGA_B0"
 		(shape input)
-		(at 254 139.7 0)
+		(at 299.085 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12229,7 +12169,7 @@
 	)
 	(hierarchical_label "VGA_B1"
 		(shape input)
-		(at 254 142.24 0)
+		(at 299.085 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12317,7 +12257,7 @@
 	)
 	(hierarchical_label "VGA_R1"
 		(shape input)
-		(at 254 127 0)
+		(at 299.085 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20857,7 +20797,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 184.15 34.29 270)
+		(at 193.04 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -20865,7 +20805,7 @@
 		(dnp no)
 		(uuid "1651827c-a3fe-4212-9ef7-b6083f214eba")
 		(property "Reference" "TP61"
-			(at 188.976 34.29 90)
+			(at 197.866 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20874,7 +20814,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 195.072 34.29 90)
+			(at 203.962 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20883,7 +20823,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 184.15 39.37 0)
+			(at 193.04 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20892,7 +20832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 39.37 0)
+			(at 193.04 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20901,7 +20841,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 184.15 34.29 0)
+			(at 193.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20910,7 +20850,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 184.15 34.29 90)
+			(at 193.04 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20919,7 +20859,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 184.15 34.29 90)
+			(at 193.04 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22103,7 +22043,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 184.15 26.67 270)
+		(at 193.04 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -22111,7 +22051,7 @@
 		(dnp no)
 		(uuid "3186d06e-7e50-4e8b-80a8-493b37f6c312")
 		(property "Reference" "TP58"
-			(at 188.976 26.67 90)
+			(at 197.866 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22120,7 +22060,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 195.072 26.67 90)
+			(at 203.962 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22129,7 +22069,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 184.15 31.75 0)
+			(at 193.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22138,7 +22078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 31.75 0)
+			(at 193.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22147,7 +22087,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 184.15 26.67 0)
+			(at 193.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22156,7 +22096,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 184.15 26.67 90)
+			(at 193.04 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22165,7 +22105,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 184.15 26.67 90)
+			(at 193.04 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23118,7 +23058,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 184.15 29.21 270)
+		(at 193.04 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -23126,7 +23066,7 @@
 		(dnp no)
 		(uuid "590d7d4c-74c1-4e12-aa62-b7dce73b78da")
 		(property "Reference" "TP59"
-			(at 188.976 29.21 90)
+			(at 197.866 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23135,7 +23075,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 195.072 29.21 90)
+			(at 203.962 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23144,7 +23084,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 184.15 34.29 0)
+			(at 193.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23153,7 +23093,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 34.29 0)
+			(at 193.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23162,7 +23102,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 184.15 29.21 0)
+			(at 193.04 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23171,7 +23111,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 184.15 29.21 90)
+			(at 193.04 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23180,7 +23120,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 184.15 29.21 90)
+			(at 193.04 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23390,7 +23330,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 184.15 39.37 270)
+		(at 193.04 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -23398,7 +23338,7 @@
 		(dnp no)
 		(uuid "66d32c24-d0aa-414d-a4d2-25b2e1ad0d4a")
 		(property "Reference" "TP63"
-			(at 188.976 39.37 90)
+			(at 197.866 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23407,7 +23347,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 195.072 39.37 90)
+			(at 203.962 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23416,7 +23356,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 184.15 44.45 0)
+			(at 193.04 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23425,7 +23365,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 44.45 0)
+			(at 193.04 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23434,7 +23374,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 184.15 39.37 0)
+			(at 193.04 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23443,7 +23383,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 184.15 39.37 90)
+			(at 193.04 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23452,7 +23392,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 184.15 39.37 90)
+			(at 193.04 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24239,7 +24179,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 184.15 31.75 270)
+		(at 193.04 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -24247,7 +24187,7 @@
 		(dnp no)
 		(uuid "8757f9c9-b588-4202-8a76-5c6e2d8155d7")
 		(property "Reference" "TP60"
-			(at 188.976 31.75 90)
+			(at 197.866 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24256,7 +24196,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 195.072 31.75 90)
+			(at 203.962 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24265,7 +24205,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 184.15 36.83 0)
+			(at 193.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24274,7 +24214,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 36.83 0)
+			(at 193.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24283,7 +24223,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 184.15 31.75 0)
+			(at 193.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24292,7 +24232,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 184.15 31.75 90)
+			(at 193.04 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24301,7 +24241,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 184.15 31.75 90)
+			(at 193.04 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24388,7 +24328,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 184.15 36.83 270)
+		(at 193.04 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -24396,7 +24336,7 @@
 		(dnp no)
 		(uuid "8966436d-e953-4b98-8d71-19a0a5a7d0e5")
 		(property "Reference" "TP62"
-			(at 188.976 36.83 90)
+			(at 197.866 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24405,7 +24345,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 195.072 36.83 90)
+			(at 203.962 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24414,7 +24354,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 184.15 41.91 0)
+			(at 193.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24423,7 +24363,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 41.91 0)
+			(at 193.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24432,7 +24372,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 184.15 36.83 0)
+			(at 193.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24441,7 +24381,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 184.15 36.83 90)
+			(at 193.04 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24450,7 +24390,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 184.15 36.83 90)
+			(at 193.04 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28001,7 +27941,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 184.15 41.91 270)
+		(at 193.04 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -28009,7 +27949,7 @@
 		(dnp no)
 		(uuid "f1dc9283-50cb-458d-a49d-be2a0d694545")
 		(property "Reference" "TP64"
-			(at 188.976 41.91 90)
+			(at 197.866 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28018,7 +27958,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 195.072 41.91 90)
+			(at 203.962 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28027,7 +27967,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 184.15 46.99 0)
+			(at 193.04 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28036,7 +27976,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 46.99 0)
+			(at 193.04 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28045,7 +27985,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 184.15 41.91 0)
+			(at 193.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28054,7 +27994,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 184.15 41.91 90)
+			(at 193.04 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28063,7 +28003,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 184.15 41.91 90)
+			(at 193.04 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
