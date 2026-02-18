@@ -865,6 +865,30 @@
           "label": "Manufacturer Part",
           "name": "Manufacturer Part",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC_3D_Size",
+          "name": "JLC_3D_Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC_3DModel_Q",
+          "name": "JLC_3DModel_Q",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentClass",
+          "name": "ComponentClass",
+          "show": false
         }
       ],
       "filter_string": "",
