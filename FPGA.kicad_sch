@@ -8052,6 +8052,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 49.53) (xy 194.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d90655-b979-47a9-8bb2-1197eb08df69")
+	)
+	(wire
+		(pts
 			(xy 250.19 129.54) (xy 260.35 129.54)
 		)
 		(stroke
@@ -8142,7 +8152,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 149.86) (xy 254 149.86)
+			(xy 250.19 149.86) (xy 260.35 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8252,7 +8262,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 29.21) (xy 184.15 29.21)
+			(xy 180.34 29.21) (xy 191.77 29.21)
 		)
 		(stroke
 			(width 0)
@@ -8302,7 +8312,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 119.38) (xy 151.13 119.38)
+			(xy 151.13 109.22) (xy 154.94 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8372,6 +8382,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 124.46) (xy 139.7 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bc11cf-ba87-400a-9ebe-883ccf057457")
+	)
+	(wire
+		(pts
 			(xy 133.35 142.24) (xy 177.8 142.24)
 		)
 		(stroke
@@ -8419,6 +8439,16 @@
 			(type default)
 		)
 		(uuid "4db4ed75-7a72-451e-bcbf-e5a6212e5476")
+	)
+	(wire
+		(pts
+			(xy 180.34 39.37) (xy 191.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2fadf7-65b3-4ce3-9f64-df75fa3cd13a")
 	)
 	(wire
 		(pts
@@ -8602,7 +8632,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 124.46) (xy 133.35 124.46)
+			(xy 146.05 101.6) (xy 139.7 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8619,6 +8649,16 @@
 			(type default)
 		)
 		(uuid "6844b338-0b35-42ce-8ccf-1af61c933e75")
+	)
+	(wire
+		(pts
+			(xy 180.34 54.61) (xy 194.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6871e56f-ccc5-42e4-8d81-03a8667745d8")
 	)
 	(wire
 		(pts
@@ -8772,7 +8812,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 121.92) (xy 151.13 121.92)
+			(xy 151.13 111.76) (xy 154.94 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8812,7 +8852,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 31.75) (xy 184.15 31.75)
+			(xy 180.34 31.75) (xy 191.77 31.75)
 		)
 		(stroke
 			(width 0)
@@ -8882,7 +8922,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 127) (xy 151.13 127)
+			(xy 153.67 104.14) (xy 157.48 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9202,7 +9242,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 147.32) (xy 254 147.32)
+			(xy 250.19 147.32) (xy 260.35 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9432,7 +9472,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 26.67) (xy 184.15 26.67)
+			(xy 180.34 26.67) (xy 191.77 26.67)
 		)
 		(stroke
 			(width 0)
@@ -9492,7 +9532,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 124.46) (xy 151.13 124.46)
+			(xy 153.67 101.6) (xy 157.48 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9562,7 +9602,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 127) (xy 133.35 127)
+			(xy 146.05 104.14) (xy 139.7 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9782,6 +9822,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 127) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ced764-1007-4024-b851-d3175c1f0d2c")
+	)
+	(wire
+		(pts
 			(xy 46.99 182.88) (xy 64.77 182.88)
 		)
 		(stroke
@@ -9941,7 +9991,7 @@
 		)
 	)
 	(label "IO10"
-		(at 57.15 125.73 180)
+		(at 191.77 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9950,7 +10000,27 @@
 		)
 		(uuid "08c3c74d-7e15-4a06-91b5-931c33ea7c70")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 124.46 0)
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(label "IO06"
+		(at 274.32 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08cd4d7d-3318-466d-9ffe-f5d9f69b8a34")
+		(property "Netclass" "SRAM_IO"
+			(at 284.48 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9961,7 +10031,7 @@
 		)
 	)
 	(label "A18"
-		(at 191.77 90.17 180)
+		(at 191.77 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9970,7 +10040,7 @@
 		)
 		(uuid "0d5eb290-ccc7-43de-9ffc-f65b319e40c6")
 		(property "Netclass" "SRAM"
-			(at 198.12 88.9 0)
+			(at 198.12 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10001,7 +10071,7 @@
 		)
 	)
 	(label "IO07"
-		(at 57.15 118.11 180)
+		(at 191.77 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10010,7 +10080,7 @@
 		)
 		(uuid "14791fb4-7013-4700-8f73-6d73219a0ba9")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 116.84 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10041,7 +10111,7 @@
 		)
 	)
 	(label "A9"
-		(at 191.77 67.31 180)
+		(at 191.77 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10050,7 +10120,7 @@
 		)
 		(uuid "1d537de8-0e5b-4bae-a67d-922b326f7900")
 		(property "Netclass" "SRAM"
-			(at 198.12 66.04 0)
+			(at 198.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10061,7 +10131,7 @@
 		)
 	)
 	(label "A2"
-		(at 195.58 34.29 180)
+		(at 139.7 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10070,7 +10140,7 @@
 		)
 		(uuid "1e7cff7c-d45f-4bec-b4d1-e4a678bb2ec7")
 		(property "Netclass" "SRAM"
-			(at 201.93 33.02 0)
+			(at 146.05 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10091,7 +10161,7 @@
 		(uuid "1f030c9b-bf85-401e-96f2-978e19ec1497")
 	)
 	(label "IO09"
-		(at 57.15 123.19 180)
+		(at 191.77 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10100,7 +10170,7 @@
 		)
 		(uuid "244302d8-6313-4bbb-ac8d-1cf522e8352b")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 121.92 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,7 +10201,7 @@
 		)
 	)
 	(label "A8"
-		(at 191.77 64.77 180)
+		(at 191.77 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10140,7 +10210,7 @@
 		)
 		(uuid "2888008e-4b7d-4fd7-9243-4c048e3d6c3d")
 		(property "Netclass" "SRAM"
-			(at 198.12 63.5 0)
+			(at 198.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10251,7 +10321,7 @@
 		)
 	)
 	(label "IO03"
-		(at 57.15 107.95 180)
+		(at 191.77 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10260,7 +10330,7 @@
 		)
 		(uuid "36ee3864-36ab-4c98-bdbd-c21b6db4dcda")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 106.68 0)
+			(at 201.93 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10301,7 +10371,7 @@
 		(uuid "3e483955-9fa7-457a-9b8c-72ae82440ff5")
 	)
 	(label "A0"
-		(at 191.77 44.45 180)
+		(at 191.77 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10310,7 +10380,7 @@
 		)
 		(uuid "42e27ebb-f287-4075-8c93-5449fb1e0084")
 		(property "Netclass" "SRAM"
-			(at 198.12 43.18 0)
+			(at 198.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10422,7 +10492,7 @@
 		)
 	)
 	(label "A16"
-		(at 191.77 85.09 180)
+		(at 191.77 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10431,7 +10501,7 @@
 		)
 		(uuid "5645f64c-43db-4790-8594-601a360d2db8")
 		(property "Netclass" "SRAM"
-			(at 198.12 83.82 0)
+			(at 198.12 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10502,7 +10572,7 @@
 		)
 	)
 	(label "IO04"
-		(at 57.15 110.49 180)
+		(at 191.77 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10511,7 +10581,7 @@
 		)
 		(uuid "63e1998b-36fb-4755-ba10-f981fd3e2051")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 109.22 0)
+			(at 201.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,7 +10673,7 @@
 		)
 	)
 	(label "IO08"
-		(at 57.15 120.65 180)
+		(at 191.77 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10612,7 +10682,7 @@
 		)
 		(uuid "6e23c95a-d08c-469f-9506-51dcae990253")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 119.38 0)
+			(at 201.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10643,7 +10713,7 @@
 		)
 	)
 	(label "A17"
-		(at 191.77 87.63 180)
+		(at 274.32 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10652,7 +10722,7 @@
 		)
 		(uuid "70262413-4d91-4462-9a51-58d67bc40212")
 		(property "Netclass" "SRAM"
-			(at 198.12 86.36 0)
+			(at 280.67 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10663,7 +10733,7 @@
 		)
 	)
 	(label "IO01"
-		(at 57.15 102.87 180)
+		(at 191.77 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10672,7 +10742,7 @@
 		)
 		(uuid "73818836-39b0-4fd8-ae8d-4430ea202169")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 101.6 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,7 +10853,7 @@
 		)
 	)
 	(label "A13"
-		(at 191.77 77.47 180)
+		(at 260.35 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10792,7 +10862,7 @@
 		)
 		(uuid "8e06a20a-18af-4660-a50a-567c4c965e20")
 		(property "Netclass" "SRAM"
-			(at 198.12 76.2 0)
+			(at 266.7 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10803,7 +10873,7 @@
 		)
 	)
 	(label "A3"
-		(at 203.2 50.165 180)
+		(at 139.7 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10812,7 +10882,7 @@
 		)
 		(uuid "8fe515c4-f2de-43ec-9e06-add457d986aa")
 		(property "Netclass" "SRAM"
-			(at 209.55 48.895 0)
+			(at 146.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10843,7 +10913,7 @@
 		)
 	)
 	(label "A11"
-		(at 191.77 72.39 180)
+		(at 139.7 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10852,7 +10922,7 @@
 		)
 		(uuid "9531a47f-ae6b-433b-a6c9-a11ebb5dbc98")
 		(property "Netclass" "SRAM"
-			(at 198.12 71.12 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10963,7 +11033,7 @@
 		)
 	)
 	(label "IO05"
-		(at 57.15 113.03 180)
+		(at 191.77 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10972,7 +11042,7 @@
 		)
 		(uuid "9e0623fb-60ad-48d6-af91-4885604c6d66")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 111.76 0)
+			(at 201.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11003,7 +11073,7 @@
 		)
 	)
 	(label "IO12"
-		(at 57.15 130.81 180)
+		(at 191.77 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11012,7 +11082,7 @@
 		)
 		(uuid "aa260c5d-3dbb-445d-acd0-c90386acde7c")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 129.54 0)
+			(at 201.93 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11043,7 +11113,7 @@
 		)
 	)
 	(label "~{CS1}"
-		(at 57.15 143.51 180)
+		(at 191.77 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11052,7 +11122,7 @@
 		)
 		(uuid "ab6233d3-964a-4e61-9e90-00851fa94d86")
 		(property "Netclass" "SRAM_CMD"
-			(at 68.58 142.24 0)
+			(at 203.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11123,7 +11193,7 @@
 		)
 	)
 	(label "A5"
-		(at 189.23 57.15 180)
+		(at 260.35 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11132,7 +11202,7 @@
 		)
 		(uuid "bfdc3cd2-1e40-4c29-92fa-238583f5b1d1")
 		(property "Netclass" "SRAM"
-			(at 195.58 55.88 0)
+			(at 266.7 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,7 +11253,7 @@
 		)
 	)
 	(label "IO11"
-		(at 57.15 128.27 180)
+		(at 191.77 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11192,7 +11262,7 @@
 		)
 		(uuid "c94edfd9-1d67-4c08-b3b8-3c2b773d81f5")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 127 0)
+			(at 201.93 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11253,7 +11323,7 @@
 		)
 	)
 	(label "A12"
-		(at 191.77 74.93 180)
+		(at 260.35 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11262,7 +11332,7 @@
 		)
 		(uuid "cde558de-d7ad-4102-ad02-d0e5d999d07f")
 		(property "Netclass" "SRAM"
-			(at 198.12 73.66 0)
+			(at 266.7 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11303,7 +11373,7 @@
 		)
 	)
 	(label "~{WE}"
-		(at 57.15 140.97 180)
+		(at 191.77 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11312,7 +11382,7 @@
 		)
 		(uuid "d11ac5df-3146-4f7e-aecd-24923dcaeb8b")
 		(property "Netclass" "SRAM_CMD"
-			(at 68.58 139.7 0)
+			(at 203.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11323,7 +11393,7 @@
 		)
 	)
 	(label "A4"
-		(at 260.35 142.24 180)
+		(at 139.7 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11332,7 +11402,7 @@
 		)
 		(uuid "dda88d78-6b06-498b-94a8-ba4630f6630b")
 		(property "Netclass" "SRAM"
-			(at 266.7 140.97 0)
+			(at 146.05 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11393,7 +11463,7 @@
 		)
 	)
 	(label "A10"
-		(at 191.77 69.85 180)
+		(at 191.77 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11402,7 +11472,7 @@
 		)
 		(uuid "e837e11f-a74a-4a7d-8826-9ce12b74ae53")
 		(property "Netclass" "SRAM"
-			(at 198.12 68.58 0)
+			(at 198.12 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11413,7 +11483,7 @@
 		)
 	)
 	(label "A15"
-		(at 191.77 82.55 180)
+		(at 191.77 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11422,7 +11492,7 @@
 		)
 		(uuid "e967bc10-1497-4f49-9ee8-104ab91c3ecd")
 		(property "Netclass" "SRAM"
-			(at 198.12 81.28 0)
+			(at 198.12 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11433,7 +11503,7 @@
 		)
 	)
 	(label "IO06"
-		(at 57.15 115.57 180)
+		(at 191.77 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11442,7 +11512,7 @@
 		)
 		(uuid "f31e5cc8-f779-401b-9fe6-0eb9f39a658a")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 114.3 0)
+			(at 201.93 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11453,7 +11523,7 @@
 		)
 	)
 	(label "A14"
-		(at 191.77 80.01 180)
+		(at 191.77 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11462,7 +11532,7 @@
 		)
 		(uuid "f39d3f8b-7c70-474c-bb0c-efa0d5b2f7c0")
 		(property "Netclass" "SRAM"
-			(at 198.12 78.74 0)
+			(at 198.12 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11473,7 +11543,7 @@
 		)
 	)
 	(label "IO02"
-		(at 57.15 105.41 180)
+		(at 191.77 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11482,7 +11552,7 @@
 		)
 		(uuid "f599f17d-6afa-4b97-8d07-c842be3f896e")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 104.14 0)
+			(at 201.93 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11503,7 +11573,7 @@
 		(uuid "f8486a83-b92a-4236-85f3-9064da5c075d")
 	)
 	(label "IO00"
-		(at 57.15 100.33 180)
+		(at 191.77 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11512,7 +11582,7 @@
 		)
 		(uuid "fc1f3f94-1f1f-4873-a3a6-5707c7c877c5")
 		(property "Netclass" "SRAM_IO"
-			(at 67.31 99.06 0)
+			(at 201.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11543,7 +11613,7 @@
 		)
 	)
 	(label "A1"
-		(at 191.77 46.99 180)
+		(at 191.77 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11552,7 +11622,7 @@
 		)
 		(uuid "ff8d922e-1d20-413b-ab02-870fe243a87b")
 		(property "Netclass" "SRAM"
-			(at 198.12 45.72 0)
+			(at 198.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,7 +11876,7 @@
 	)
 	(hierarchical_label "SCL0"
 		(shape input)
-		(at 151.13 119.38 0)
+		(at 154.94 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12004,7 +12074,7 @@
 	)
 	(hierarchical_label "RXD_UART"
 		(shape input)
-		(at 151.13 127 0)
+		(at 157.48 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12015,7 +12085,7 @@
 	)
 	(hierarchical_label "TXD_UART"
 		(shape input)
-		(at 151.13 124.46 0)
+		(at 157.48 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12092,7 +12162,7 @@
 	)
 	(hierarchical_label "SDA0"
 		(shape input)
-		(at 151.13 121.92 0)
+		(at 154.94 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12402,6 +12472,24 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 48.26 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentClass" "fanout"
+			(at 48.26 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5664013"
 			(at 48.26 29.21 0)
 			(effects
 				(font
@@ -13418,6 +13506,24 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentClass" "fanout"
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5664013"
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "M11"
 			(uuid "351a5b8f-5f12-4914-a9a9-1829190023b9")
 		)
@@ -14418,6 +14524,24 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 52.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentClass" "fanout"
+			(at 52.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5664013"
 			(at 52.07 100.33 0)
 			(effects
 				(font
@@ -15434,6 +15558,24 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentClass" "fanout"
+			(at 109.22 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5664013"
+			(at 109.22 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "H17"
 			(uuid "c0e53c39-ac1e-4ca2-ba48-0cdc6bf526e6")
 		)
@@ -16434,6 +16576,24 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentClass" "fanout"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5664013"
 			(at 180.34 26.67 0)
 			(effects
 				(font
@@ -17450,6 +17610,24 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentClass" "fanout"
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5664013"
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "E6"
 			(uuid "282385ba-5cd5-424e-959c-e59c34206001")
 		)
@@ -18458,6 +18636,24 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentClass" "fanout"
+			(at 133.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5664013"
+			(at 133.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B11"
 			(uuid "a65c014e-255f-4b61-a0b1-97a95237db8d")
 		)
@@ -19418,6 +19614,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C190862"
+			(at 113.03 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7a3e832-ad79-45a2-9ce4-042bc4046015")
 		)
@@ -20013,7 +20218,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 124.46 90)
+		(at 149.86 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20021,7 +20226,7 @@
 		(dnp no)
 		(uuid "0d8e5d0b-950c-4600-800a-81007ff2d533")
 		(property "Reference" "R69"
-			(at 139.065 123.825 90)
+			(at 145.415 100.965 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20029,7 +20234,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 143.51 124.46 90)
+			(at 149.86 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20037,7 +20242,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 126.238 90)
+			(at 149.86 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20046,7 +20251,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 124.46 0)
+			(at 149.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20055,7 +20260,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 124.46 0)
+			(at 149.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20063,7 +20268,7 @@
 			)
 		)
 		(property "Mfg" "‎Yageo‎"
-			(at 143.51 124.46 0)
+			(at 149.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20072,7 +20277,7 @@
 			)
 		)
 		(property "PN" "RC0201FR-0720RL"
-			(at 143.51 124.46 0)
+			(at 149.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20081,7 +20286,7 @@
 			)
 		)
 		(property "Mfg_1" "UNI-ROYAL(Uniroyal Elec)"
-			(at 143.51 124.46 0)
+			(at 149.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20090,7 +20295,7 @@
 			)
 		)
 		(property "PN_1" "0201WMF200JTCE"
-			(at 143.51 124.46 0)
+			(at 149.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20099,7 +20304,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 143.51 124.46 90)
+			(at 149.86 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20108,7 +20313,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 143.51 124.46 90)
+			(at 149.86 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20341,6 +20546,24 @@
 			)
 		)
 		(property "LCSC Part Name" "512K X 16 低电压超低功耗CMOS静态RAM"
+			(at 247.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "81284d8225db4387bf18f410f83c5619"
+			(at 247.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "11.8125 18.4"
 			(at 247.65 59.69 0)
 			(effects
 				(font
@@ -21450,7 +21673,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 119.38 90)
+		(at 147.32 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21458,7 +21681,7 @@
 		(dnp no)
 		(uuid "25f78396-abb8-441c-9543-289a77443c69")
 		(property "Reference" "R67"
-			(at 139.065 118.745 90)
+			(at 142.875 108.585 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21466,7 +21689,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 143.51 119.38 90)
+			(at 147.32 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21474,7 +21697,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 121.158 90)
+			(at 147.32 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21483,7 +21706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 119.38 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21492,7 +21715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 119.38 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21500,7 +21723,7 @@
 			)
 		)
 		(property "Mfg" "‎Yageo‎"
-			(at 143.51 119.38 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21509,7 +21732,7 @@
 			)
 		)
 		(property "PN" "RC0201FR-0720RL"
-			(at 143.51 119.38 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21518,7 +21741,7 @@
 			)
 		)
 		(property "Mfg_1" "UNI-ROYAL(Uniroyal Elec)"
-			(at 143.51 119.38 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21527,7 +21750,7 @@
 			)
 		)
 		(property "PN_1" "0201WMF200JTCE"
-			(at 143.51 119.38 0)
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21536,7 +21759,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 143.51 119.38 90)
+			(at 147.32 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21545,7 +21768,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 143.51 119.38 90)
+			(at 147.32 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21923,7 +22146,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 121.92 90)
+		(at 147.32 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21931,7 +22154,7 @@
 		(dnp no)
 		(uuid "2d691f6c-77bd-4b99-8eed-1628c6cd0af0")
 		(property "Reference" "R68"
-			(at 139.065 121.285 90)
+			(at 142.875 111.125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21939,7 +22162,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 143.51 121.92 90)
+			(at 147.32 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21947,7 +22170,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 123.698 90)
+			(at 147.32 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21956,7 +22179,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 121.92 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21965,7 +22188,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 121.92 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21973,7 +22196,7 @@
 			)
 		)
 		(property "Mfg" "‎Yageo‎"
-			(at 143.51 121.92 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21982,7 +22205,7 @@
 			)
 		)
 		(property "PN" "RC0201FR-0720RL"
-			(at 143.51 121.92 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21991,7 +22214,7 @@
 			)
 		)
 		(property "Mfg_1" "UNI-ROYAL(Uniroyal Elec)"
-			(at 143.51 121.92 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22000,7 +22223,7 @@
 			)
 		)
 		(property "PN_1" "0201WMF200JTCE"
-			(at 143.51 121.92 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22009,7 +22232,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 143.51 121.92 90)
+			(at 147.32 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22018,7 +22241,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 143.51 121.92 90)
+			(at 147.32 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26015,6 +26238,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel_Q" "3d8e5f33629249f9a4089449c02742d4"
+			(at 181.61 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "3.2 2.5"
+			(at 181.61 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d68efab7-39c8-41c9-9377-8e48b9d0ac86")
 		)
@@ -28417,7 +28658,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 127 90)
+		(at 149.86 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28425,7 +28666,7 @@
 		(dnp no)
 		(uuid "f7c4ce2c-1694-42f5-866b-d6fc7db999fb")
 		(property "Reference" "R70"
-			(at 139.065 126.365 90)
+			(at 145.415 103.505 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28433,7 +28674,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 143.51 127 90)
+			(at 149.86 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28441,7 +28682,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 128.778 90)
+			(at 149.86 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28450,7 +28691,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 127 0)
+			(at 149.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28459,7 +28700,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 127 0)
+			(at 149.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28467,7 +28708,7 @@
 			)
 		)
 		(property "Mfg" "‎Yageo‎"
-			(at 143.51 127 0)
+			(at 149.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28476,7 +28717,7 @@
 			)
 		)
 		(property "PN" "RC0201FR-0720RL"
-			(at 143.51 127 0)
+			(at 149.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28485,7 +28726,7 @@
 			)
 		)
 		(property "Mfg_1" "UNI-ROYAL(Uniroyal Elec)"
-			(at 143.51 127 0)
+			(at 149.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28494,7 +28735,7 @@
 			)
 		)
 		(property "PN_1" "0201WMF200JTCE"
-			(at 143.51 127 0)
+			(at 149.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28503,7 +28744,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 143.51 127 90)
+			(at 149.86 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28512,7 +28753,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 143.51 127 90)
+			(at 149.86 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -8171,6 +8171,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C173752"
+			(at 34.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "013c2d7a-7e76-4095-a27b-b6db981f45f4")
 		)
@@ -8464,6 +8473,24 @@
 			)
 		)
 		(property "LCSC Part Name" "高密度D-Sub 母 P数:15P"
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "8413562495e247b795cb16dbfce09eda"
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "30.8 14.8"
 			(at 251.46 119.38 0)
 			(effects
 				(font

@@ -5141,6 +5141,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C575586"
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "08eba959-48ed-4689-8d1b-cdcda2c80126")
 		)
@@ -5736,6 +5745,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23231"
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d7e5e54-a06d-4dfc-9e85-fed35179d7bb")
 		)
@@ -5851,6 +5869,15 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 125.73 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22978"
 			(at 125.73 74.93 0)
 			(effects
 				(font
@@ -6232,6 +6259,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C216156"
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7aa917e7-d79b-4d30-b131-47f283cdbaad")
 		)
@@ -6346,6 +6382,15 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25808"
 			(at 88.9 127 0)
 			(effects
 				(font
@@ -7002,6 +7047,15 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 77.47 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C603508"
 			(at 77.47 182.88 0)
 			(effects
 				(font
@@ -8095,6 +8149,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23254"
+			(at 90.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba48836b-a0ee-4ec5-9c4f-5a5ccbd4308e")
 		)
@@ -8209,6 +8272,15 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 90.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23146"
 			(at 90.17 152.4 0)
 			(effects
 				(font
@@ -8746,6 +8818,24 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 52.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg_1" "UNI-ROYAL(Uniroyal Elec)"
+			(at 52.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN_1" "0201WMF5622TCE"
 			(at 52.07 151.13 0)
 			(effects
 				(font
@@ -9622,6 +9712,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23153"
+			(at 109.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "360769ab-241e-4b67-886b-da57c75fc412")
 		)
@@ -10055,6 +10154,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23206"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0e82537-c6ba-4336-985d-e8ad100fae80")
 		)
@@ -10330,6 +10438,15 @@
 			)
 		)
 		(property "Note" "-40℃~+85℃@(Ta) 1 150mA 1uA 2.5V 6V Fixed Over Current Protection、Short Circuit Protection Positive SOT-23-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+			(at 120.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15906"
 			(at 120.65 184.15 0)
 			(effects
 				(font
@@ -11183,6 +11300,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25819"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cb2ce79-4c1f-4ac6-98c9-64183d68ff1f")
 		)
@@ -11364,6 +11490,15 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23137"
 			(at 121.92 83.82 0)
 			(effects
 				(font

@@ -7908,6 +7908,24 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentClass" "fanout"
+			(at 181.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5664013"
+			(at 181.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "E6"
 			(uuid "c791e101-b78c-4995-a419-721a039b43fe")
 		)
@@ -8906,6 +8924,24 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 156.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentClass" "fanout"
+			(at 156.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5664013"
 			(at 156.21 130.81 0)
 			(effects
 				(font
@@ -10936,6 +10972,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4190"
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a9f8d8d-4641-43e5-b2e0-0f920f11dbc9")
 		)
@@ -12755,6 +12800,15 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 185.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22843"
 			(at 185.42 46.99 0)
 			(effects
 				(font
