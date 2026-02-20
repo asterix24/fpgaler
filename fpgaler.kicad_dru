@@ -1,4 +1,7 @@
 (version 1)
+(rule "track 0.25"
+    (constraint clearance (min 0.25mm))
+    (condition "A.Type == 'Track' && A.Size == 0.25mm"))
 
 (rule "Pad to Track Clearance"
     (constraint clearance (min 0.089mm))
@@ -10,3 +13,5 @@
 	(constraint hole_to_hole (min 0.089mm))
 	(constraint hole_clearance (min 0.089mm))
     (condition "A.intersectsCourtyard('U8')"))
+
+

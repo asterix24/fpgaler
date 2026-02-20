@@ -649,6 +649,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0"
 			(pin_names
 				(offset 1.016)
@@ -4666,6 +4773,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 160.02) (xy 213.36 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e62428-ed8c-4a25-9137-77219c9a91fc")
+	)
+	(wire
+		(pts
 			(xy 201.93 72.39) (xy 214.63 72.39)
 		)
 		(stroke
@@ -4686,6 +4803,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 167.64) (xy 213.36 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfaf88d-c0f4-4fa4-964e-4ef83c89e1e7")
+	)
+	(wire
+		(pts
 			(xy 72.39 107.95) (xy 110.49 107.95)
 		)
 		(stroke
@@ -4693,6 +4820,36 @@
 			(type default)
 		)
 		(uuid "0fe4bf4e-8297-4eb0-a61f-6b552c202493")
+	)
+	(wire
+		(pts
+			(xy 246.38 77.47) (xy 257.81 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112482de-f5aa-460e-a47e-b1eb8ea373bd")
+	)
+	(wire
+		(pts
+			(xy 247.65 44.45) (xy 259.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118cd440-2e7c-4d97-877d-ce9595eedbe2")
+	)
+	(wire
+		(pts
+			(xy 201.93 182.88) (xy 213.36 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a6d026-7fb6-4ec2-b2a6-4d0daabaf548")
 	)
 	(wire
 		(pts
@@ -4716,6 +4873,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 187.96) (xy 213.36 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135e3080-0959-4cc7-88fe-1d60536404db")
+	)
+	(wire
+		(pts
 			(xy 222.25 139.7) (xy 222.25 142.24)
 		)
 		(stroke
@@ -4726,13 +4893,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 167.64) (xy 213.995 167.64)
+			(xy 201.93 177.8) (xy 213.36 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b6e7217-23c9-47ad-ac5f-f9a547e4f5aa")
+		(uuid "17c0d9ed-f61d-46a8-b04b-4baab7914ea3")
 	)
 	(wire
 		(pts
@@ -4763,6 +4930,16 @@
 			(type default)
 		)
 		(uuid "1d49e924-79cf-41d9-b8f9-0080867c17b3")
+	)
+	(wire
+		(pts
+			(xy 247.65 36.83) (xy 259.08 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4c0dce-dfaa-4b6e-84aa-c95d08d01c74")
 	)
 	(wire
 		(pts
@@ -4986,13 +5163,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 162.56) (xy 213.995 162.56)
+			(xy 247.65 41.91) (xy 259.08 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c2d83e8-dff6-425a-ada6-06934752ebb1")
+		(uuid "3ae77e03-3bf6-47b0-a3c6-8c34a233a592")
 	)
 	(wire
 		(pts
@@ -5056,6 +5233,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 80.01) (xy 257.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ae672d-330f-4e75-ae20-93b0c416d1f7")
+	)
+	(wire
+		(pts
 			(xy 118.11 165.1) (xy 118.11 170.18)
 		)
 		(stroke
@@ -5096,6 +5283,26 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 24.13) (xy 259.08 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43403b5c-a299-428d-815c-2f77ec8cf7eb")
+	)
+	(wire
+		(pts
+			(xy 201.93 154.94) (xy 213.36 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46842e38-e64c-4a62-93f9-2ae954b8dd07")
+	)
+	(wire
+		(pts
 			(xy 241.3 114.3) (xy 241.3 116.84)
 		)
 		(stroke
@@ -5133,6 +5340,16 @@
 			(type default)
 		)
 		(uuid "48aeaeff-75ec-4e1b-b772-37ad4135b5b8")
+	)
+	(wire
+		(pts
+			(xy 246.38 67.31) (xy 257.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490f0701-2fa8-467e-81b2-d002b182fbc8")
 	)
 	(wire
 		(pts
@@ -5183,6 +5400,16 @@
 			(type default)
 		)
 		(uuid "4faf7cc4-4827-4942-8e29-e1674e78e31c")
+	)
+	(wire
+		(pts
+			(xy 246.38 69.85) (xy 257.81 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c5a34c-f853-46d1-995b-19c55e11d99b")
 	)
 	(wire
 		(pts
@@ -5273,6 +5500,16 @@
 			(type default)
 		)
 		(uuid "5c8b5b2d-86e3-4540-bf8d-ac5302db8229")
+	)
+	(wire
+		(pts
+			(xy 201.93 147.32) (xy 213.36 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd4c364-d534-47b2-a9d5-9c4c6cc42b62")
 	)
 	(wire
 		(pts
@@ -5386,6 +5623,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 175.26) (xy 213.36 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b30135-0150-4dd2-b296-0ce50edc9318")
+	)
+	(wire
+		(pts
 			(xy 201.93 137.16) (xy 214.63 137.16)
 		)
 		(stroke
@@ -5393,16 +5640,6 @@
 			(type default)
 		)
 		(uuid "663837eb-dbc0-4e3a-8126-da90f7308c78")
-	)
-	(wire
-		(pts
-			(xy 201.93 160.02) (xy 213.995 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6683b7d6-3e80-450d-930e-1d77cc1fe51e")
 	)
 	(wire
 		(pts
@@ -5416,6 +5653,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 152.4) (xy 213.36 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67efa6b6-ad09-4003-8450-01e5f9749cf3")
+	)
+	(wire
+		(pts
 			(xy 111.76 143.51) (xy 111.76 139.7)
 		)
 		(stroke
@@ -5423,6 +5670,16 @@
 			(type default)
 		)
 		(uuid "6880e507-7740-409a-996d-c3f5d4be36ea")
+	)
+	(wire
+		(pts
+			(xy 246.38 72.39) (xy 257.81 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68cb91fc-fc27-46fa-8035-e5b522fbca19")
 	)
 	(wire
 		(pts
@@ -5516,6 +5773,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 185.42) (xy 213.36 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c4b16a-8fa1-4cdb-995c-dbdca91ca711")
+	)
+	(wire
+		(pts
 			(xy 154.94 165.1) (xy 154.94 170.18)
 		)
 		(stroke
@@ -5526,6 +5793,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 149.86) (xy 213.36 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77991521-d86d-4573-9703-beda02e06a5a")
+	)
+	(wire
+		(pts
 			(xy 201.93 127) (xy 214.63 127)
 		)
 		(stroke
@@ -5533,16 +5810,6 @@
 			(type default)
 		)
 		(uuid "78dad997-2dc3-4613-92c0-8119b02e8367")
-	)
-	(wire
-		(pts
-			(xy 201.93 177.8) (xy 213.995 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "792c021b-6672-402e-a612-c261968ccec7")
 	)
 	(wire
 		(pts
@@ -5596,13 +5863,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 172.72) (xy 213.995 172.72)
+			(xy 201.93 170.18) (xy 213.36 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84c2f6c2-3516-4b89-8f48-ff4759de52a3")
+		(uuid "82e850ba-6c25-42e4-91a8-a3194f3f55c5")
+	)
+	(wire
+		(pts
+			(xy 247.65 39.37) (xy 259.08 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8417cae5-7f71-4e2d-9e30-77524c79185f")
 	)
 	(wire
 		(pts
@@ -5623,6 +5900,36 @@
 			(type default)
 		)
 		(uuid "8765e77f-7676-4067-8028-15659f7fb2fd")
+	)
+	(wire
+		(pts
+			(xy 201.93 162.56) (xy 213.36 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8829275f-be42-4525-8f2b-47655c0953a9")
+	)
+	(wire
+		(pts
+			(xy 247.65 31.75) (xy 259.08 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e5fbb0-537d-4f07-b9f5-4592a3996ca8")
+	)
+	(wire
+		(pts
+			(xy 201.93 180.34) (xy 213.36 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a892c5-955c-49fd-9c43-5d6b8110cc65")
 	)
 	(wire
 		(pts
@@ -5696,13 +6003,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 157.48) (xy 213.995 157.48)
+			(xy 201.93 172.72) (xy 213.36 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9346e4a6-2795-4d0d-b69c-ad1d4bdd642c")
+		(uuid "92eb828a-cc77-43d1-891d-dc03334d90f0")
 	)
 	(wire
 		(pts
@@ -5756,16 +6063,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 165.1) (xy 213.995 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a29c44b-9349-4c53-a012-b11f3aa08553")
-	)
-	(wire
-		(pts
 			(xy 222.25 137.16) (xy 222.25 139.7)
 		)
 		(stroke
@@ -5806,13 +6103,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 175.26) (xy 213.995 175.26)
+			(xy 246.38 62.23) (xy 257.81 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1103f48-1f36-47e7-a747-9b2f20558b84")
+		(uuid "9eef0889-d458-4469-878b-835a6f3d023f")
 	)
 	(wire
 		(pts
@@ -5906,6 +6203,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 74.93) (xy 257.81 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3806914-9d06-496c-b185-5f698f0026ec")
+	)
+	(wire
+		(pts
 			(xy 201.93 86.36) (xy 214.63 86.36)
 		)
 		(stroke
@@ -5913,6 +6220,16 @@
 			(type default)
 		)
 		(uuid "b380d08b-f0ed-4583-a015-946e5555a3ea")
+	)
+	(wire
+		(pts
+			(xy 201.93 165.1) (xy 213.36 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a71dd2-e17a-4dbd-abce-2d2defe18a4e")
 	)
 	(wire
 		(pts
@@ -6016,6 +6333,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 64.77) (xy 257.81 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3522c23-d76d-4afa-9264-a2b072f638a2")
+	)
+	(wire
+		(pts
 			(xy 49.53 54.61) (xy 52.07 54.61)
 		)
 		(stroke
@@ -6076,6 +6403,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 157.48) (xy 213.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9265af-9a3d-4cb4-a99c-31335be94a7c")
+	)
+	(wire
+		(pts
 			(xy 92.71 50.8) (xy 132.08 50.8)
 		)
 		(stroke
@@ -6116,6 +6453,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 59.69) (xy 257.81 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26326fb-335b-4e1f-8654-6bced81f971e")
+	)
+	(wire
+		(pts
 			(xy 201.93 74.93) (xy 214.63 74.93)
 		)
 		(stroke
@@ -6123,6 +6470,16 @@
 			(type default)
 		)
 		(uuid "d4c1898a-7954-417f-9bea-0a32d1f5da66")
+	)
+	(wire
+		(pts
+			(xy 247.65 29.21) (xy 259.08 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68dae6c-9ba6-4ae7-a208-0ddebf58ecd7")
 	)
 	(wire
 		(pts
@@ -6146,6 +6503,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 34.29) (xy 259.08 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2267bf-cb83-4867-9f42-b6d6bad0336a")
+	)
+	(wire
+		(pts
 			(xy 201.93 139.7) (xy 214.63 139.7)
 		)
 		(stroke
@@ -6156,13 +6523,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 170.18) (xy 213.995 170.18)
+			(xy 201.93 190.5) (xy 213.36 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4cc07cb-27ef-483f-ae5d-12018e407535")
+		(uuid "e5075bca-323e-4d01-89be-ea4b41bf8b5c")
 	)
 	(wire
 		(pts
@@ -6316,6 +6683,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 26.67) (xy 259.08 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3950f1-43d6-40a8-886a-6ac2f31c25a2")
+	)
+	(wire
+		(pts
 			(xy 180.34 64.77) (xy 157.48 64.77)
 		)
 		(stroke
@@ -6404,6 +6781,16 @@
 		)
 		(uuid "0cff30c4-1e50-4fbf-8c17-113e290828f6")
 	)
+	(label "P0_DB4"
+		(at 250.825 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d64b619-efaa-47ac-a075-6a07b7d80bf1")
+	)
 	(label "K4"
 		(at 160.02 139.7 0)
 		(effects
@@ -6423,6 +6810,26 @@
 			(justify left bottom)
 		)
 		(uuid "11152125-9b0c-455a-8af3-aef430491029")
+	)
+	(label "P0_DB8"
+		(at 204.47 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "118c2405-4bfd-4e51-82aa-258ce967fc41")
+	)
+	(label "P0_DB7"
+		(at 250.19 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11d8ac78-23df-454d-8ec2-7e61f640b46c")
 	)
 	(label "L6"
 		(at 205.74 64.77 0)
@@ -6453,6 +6860,26 @@
 			(justify left bottom)
 		)
 		(uuid "1b00e39a-6677-4992-adf0-c2ea411a4f9d")
+	)
+	(label "P0_DB7"
+		(at 204.47 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c2b6a81-f92c-4b0f-9d91-d8f0f3cbe609")
+	)
+	(label "P0_DB3"
+		(at 204.47 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e37f8ee-9281-4923-8065-0696066222de")
 	)
 	(label "L5"
 		(at 205.74 67.31 0)
@@ -6494,6 +6921,16 @@
 		)
 		(uuid "29889240-e247-46ef-8ed8-87b835e29da0")
 	)
+	(label "P1_DB1"
+		(at 248.92 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2eff5f86-ea36-4993-a0e4-90acd995016f")
+	)
 	(label "K1"
 		(at 205.74 91.44 0)
 		(effects
@@ -6514,6 +6951,26 @@
 		)
 		(uuid "3c5fa978-1abc-4416-bfc7-9692864d5754")
 	)
+	(label "P0_DB9"
+		(at 204.47 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "431250c6-f9a6-4a93-992f-b64054a8062d")
+	)
+	(label "P0_DB5"
+		(at 250.825 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4999db49-0489-4095-b021-1e6fb70f8a1e")
+	)
 	(label "K4"
 		(at 205.74 83.82 0)
 		(effects
@@ -6523,6 +6980,36 @@
 			(justify left bottom)
 		)
 		(uuid "499a4aa6-0084-4dc5-8f98-d2ea34414ac8")
+	)
+	(label "P1_DB6"
+		(at 204.47 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ec95ddf-337c-4128-9d88-793f19cdff8a")
+	)
+	(label "P1_DB3"
+		(at 204.47 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f7ab37b-8417-4da4-9c45-b027b94e9cee")
+	)
+	(label "P0_DB6"
+		(at 204.47 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52cabc01-524f-42b4-a33b-feb3d756e23e")
 	)
 	(label "ROT_A"
 		(at 33.02 143.51 0)
@@ -6594,6 +7081,46 @@
 		)
 		(uuid "6a6d9555-beb4-4351-b789-6271d01b80c8")
 	)
+	(label "P0_DB8"
+		(at 250.19 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bc4c44f-785d-4341-8397-0fca879de657")
+	)
+	(label "P1_DB3"
+		(at 248.92 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70581663-92ae-4786-a9c2-a8563f324c95")
+	)
+	(label "P1_DB4"
+		(at 249.555 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "711f1b4a-288c-4ef8-a59a-4b582e51de99")
+	)
+	(label "P0_DB3"
+		(at 250.19 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "732b30e6-5066-4b8a-869c-6adce745ec9c")
+	)
 	(label "VSYNC"
 		(at 224.79 119.38 0)
 		(effects
@@ -6623,6 +7150,26 @@
 			(justify left bottom)
 		)
 		(uuid "802c0d85-2eb9-40d0-8912-6f8a5a2fdcc4")
+	)
+	(label "P0_DB1"
+		(at 204.47 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8390248a-1040-4812-a455-6da2367ced58")
+	)
+	(label "P1_DB8"
+		(at 248.92 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "844f3421-179f-418f-974f-10d7096a7745")
 	)
 	(label "FT_TDI"
 		(at 97.79 105.41 0)
@@ -6664,6 +7211,16 @@
 		)
 		(uuid "8caec8a1-cffb-429f-a18c-0083065b7e10")
 	)
+	(label "P0_DB2"
+		(at 250.19 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d8793ae-43c8-4920-9d5d-a1f59382f14d")
+	)
 	(label "L4"
 		(at 205.74 69.85 0)
 		(effects
@@ -6703,6 +7260,26 @@
 			(justify left bottom)
 		)
 		(uuid "9f2c7468-0b2f-4693-8bb9-713887001c4f")
+	)
+	(label "P0_DB2"
+		(at 204.47 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a09c7671-0a68-44ac-960a-fb213b03b4d4")
+	)
+	(label "P1_DB5"
+		(at 249.555 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a384ae6a-038b-469b-ba93-3de7b935f2ce")
 	)
 	(label "HSYNC"
 		(at 224.79 116.84 0)
@@ -6744,6 +7321,16 @@
 		)
 		(uuid "abca87d1-5a4d-4ef0-9f05-8f166d36f8a2")
 	)
+	(label "P1_DB6"
+		(at 248.92 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abdd7b8e-453e-4f0e-9231-7bda9b52381b")
+	)
 	(label "ROT_SW"
 		(at 60.96 143.51 0)
 		(effects
@@ -6753,6 +7340,66 @@
 			(justify left bottom)
 		)
 		(uuid "b3008196-772c-4c52-8414-4c15c1d488e6")
+	)
+	(label "P1_DB9"
+		(at 248.92 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4e2cc51-8e39-4560-8dfe-5b3ac31c568f")
+	)
+	(label "P0_DB6"
+		(at 250.19 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9a481c4-4afe-49dc-b577-33d519317e07")
+	)
+	(label "P1_DB2"
+		(at 248.92 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be075ed6-29b5-4ea1-9ca4-9f9b0a38a2f6")
+	)
+	(label "P1_DB7"
+		(at 204.47 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7775be7-f9a6-4d3e-9088-0b33f898440f")
+	)
+	(label "P1_DB2"
+		(at 204.47 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c91ba434-c121-4e02-acc8-339cbea351cd")
+	)
+	(label "P0_DB9"
+		(at 250.19 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca9dbe56-c4cd-4b39-ba63-5c9576f82f02")
 	)
 	(label "K2"
 		(at 115.57 139.7 0)
@@ -6804,6 +7451,16 @@
 		)
 		(uuid "d1d364d6-1206-4178-a747-505ab4e789c8")
 	)
+	(label "P1_DB5"
+		(at 204.47 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d43bbe99-bfcd-4914-bd6e-a1085b906f01")
+	)
 	(label "ROT_B"
 		(at 24.13 148.59 0)
 		(effects
@@ -6824,6 +7481,56 @@
 		)
 		(uuid "d727c4ca-b011-47b0-8e7c-6678217bf32b")
 	)
+	(label "P1_DB9"
+		(at 204.47 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8fc6b82-5a2d-465c-b274-4cefc45bcefb")
+	)
+	(label "P0_DB1"
+		(at 250.19 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbc05c39-3bb1-47ce-baac-dec8eb610936")
+	)
+	(label "P1_DB8"
+		(at 204.47 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcb220f0-cc16-473d-9b76-97b39e136912")
+	)
+	(label "P1_DB7"
+		(at 248.92 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0c6dcc7-7642-48dc-ad35-0ca652cb3b44")
+	)
+	(label "P0_DB4"
+		(at 204.47 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0de55bf-0be7-4570-84e1-472b75b59b48")
+	)
 	(label "L7"
 		(at 205.74 62.23 0)
 		(effects
@@ -6843,6 +7550,16 @@
 			(justify left bottom)
 		)
 		(uuid "e7e80fcd-cfb3-4010-a4cd-816230b525e8")
+	)
+	(label "P1_DB4"
+		(at 204.47 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8dc1618-2378-4b73-9949-e45bec4e33cf")
 	)
 	(label "ROT_B1"
 		(at 24.13 176.53 0)
@@ -6894,6 +7611,16 @@
 		)
 		(uuid "f05c8d5f-81c8-489f-bfb2-4dc19dbc8460")
 	)
+	(label "P1_DB1"
+		(at 204.47 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2bba9d5-7451-4bfc-a99b-7795fe3e7b78")
+	)
 	(label "_USB_D_P"
 		(at 74.93 48.26 0)
 		(effects
@@ -6913,6 +7640,16 @@
 			(justify right bottom)
 		)
 		(uuid "f63b4012-c77f-43ef-b593-1c75a834b36a")
+	)
+	(label "P0_DB5"
+		(at 204.47 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff0c9dc7-198f-4c27-8ba1-29450a307c6d")
 	)
 	(symbol
 		(lib_name "GND_2")
@@ -9084,6 +9821,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "190cb58d-397e-43af-880d-4325f452e8c9")
+		(property "Reference" "TP7"
+			(at 218.186 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aec716b-2f96-4be2-b0bf-d12e06196cc7")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 218.44 116.84 90)
 		(unit 1)
@@ -9444,6 +10266,176 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ee75b9c-a86e-4bac-a07b-811ab0fba0fc")
+		(property "Reference" "TP22"
+			(at 94.996 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 101.092 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 90.17 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 90.17 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc0948c9-541e-4378-b7e5-19ee7f63c3a1")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 187.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "21003129-e40f-46b6-84a2-327bfe7a95d5")
+		(property "Reference" "TP18"
+			(at 218.186 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8205716-6781-4ef6-abfe-209f6a62f7a3")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UPduino_v3.0:Device_C")
 		(at 73.66 29.21 0)
 		(unit 1)
@@ -9525,6 +10517,91 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "218a402d-2fb6-44bd-a798-49474486f332")
+		(property "Reference" "TP30"
+			(at 122.936 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 129.032 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 118.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 118.11 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 118.11 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "607b4457-d846-41c8-9874-6e3a14094ba4")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -9645,6 +10722,91 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "24ef755c-7a55-4137-9ee6-2bef6798fc43")
+		(property "Reference" "TP11"
+			(at 218.186 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70a3085c-b49e-4bd5-b31a-dfa1b2b14828")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -9893,7 +11055,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "gkl_power:GND")
-		(at 221.615 182.88 0)
+		(at 265.43 85.09 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9902,7 +11064,7 @@
 		(dnp no)
 		(uuid "2743b90e-6a45-47b0-aa39-d6c057a8b029")
 		(property "Reference" "#PWR0146"
-			(at 221.615 189.23 0)
+			(at 265.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9911,7 +11073,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 221.5388 186.0804 0)
+			(at 265.3538 88.2904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9919,7 +11081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.155 191.77 0)
+			(at 267.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9928,7 +11090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.615 182.88 0)
+			(at 265.43 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9937,7 +11099,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 221.615 182.88 0)
+			(at 265.43 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10178,6 +11340,176 @@
 			(project ""
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f7e79ba-bab4-4778-8e10-6f42d6571992")
+		(property "Reference" "TP6"
+			(at 218.186 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a5255cd-9c4b-4d93-8894-8e6b64b99256")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fa10bd9-b183-4c41-a7bc-ae8fe4c89daa")
+		(property "Reference" "TP5"
+			(at 218.186 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ded3d48-0bb7-4170-9393-c01a8bd898c2")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -10616,6 +11948,72 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "gkl_power:GND")
+		(at 266.7 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "365d80c0-3c74-4032-975f-0203f0c0f74b")
+		(property "Reference" "#PWR0153"
+			(at 266.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.6238 52.7304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50a5234d-97f7-477f-9ca6-43d49985ce58")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -11278,6 +12676,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "43af6de1-be2a-4f2a-b8c0-83326acc474b")
+		(property "Reference" "TP4"
+			(at 218.186 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13c50194-f5b7-45f1-9864-6b838767184c")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 218.44 129.54 90)
 		(unit 1)
@@ -11681,6 +13164,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b8aa7ea-aad0-4141-8b44-1af5611d2351")
+		(property "Reference" "TP15"
+			(at 218.186 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ca5c605-13a7-490a-8697-9f098df583b9")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 129.54 104.14 180)
 		(unit 1)
@@ -11803,6 +13371,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 185.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4da0233b-7259-4530-aeca-01a05cc30041")
+		(property "Reference" "TP17"
+			(at 218.186 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9d5dee2-ec1c-43d8-99ac-ed6857f408fb")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "gkl_power:GND")
 		(at 39.37 146.05 270)
@@ -11863,6 +13516,91 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fd70026-ba5c-4d5c-88db-e06812de9ee4")
+		(property "Reference" "TP29"
+			(at 114.046 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 120.142 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 109.22 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 109.22 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9809443b-9c45-47c0-a3d6-9d00ec8336c7")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -12223,6 +13961,91 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 137.16 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "551045cb-6fa7-4774-8824-9bb071db00c8")
+		(property "Reference" "TP32"
+			(at 141.986 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 148.082 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 137.16 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 137.16 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 137.16 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 137.16 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4d6bd32-f4a5-4140-8cdd-18a8b6ba5fe2")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -12712,16 +14535,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:DE9_Pins_MountingHoles")
-		(at 221.615 167.64 0)
+		(lib_id "Connector:TestPoint")
+		(at 213.36 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "6dcb0f4e-742b-417c-a83e-64d1a75c6997")
-		(property "Reference" "J6"
-			(at 224.155 155.575 0)
+		(uuid "6d607970-eed7-4111-9618-f21c0358d106")
+		(property "Reference" "TP2"
+			(at 218.186 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12729,17 +14552,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DB9 Expander"
-			(at 223.52 153.035 0)
+		(property "Value" "TestPoint"
+			(at 224.282 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
-			(at 221.615 167.64 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12748,7 +14572,91 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 221.615 167.64 0)
+			(at 213.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe58ab43-8562-47f0-a5a6-20f6e1d3651d")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Pins_MountingHoles")
+		(at 265.43 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dcb0f4e-742b-417c-a83e-64d1a75c6997")
+		(property "Reference" "J6"
+			(at 267.97 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DB9 Expander"
+			(at 267.335 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
+			(at 265.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12757,7 +14665,7 @@
 			)
 		)
 		(property "Description" "9-pin D-SUB connector, pins (male), Mounting Hole"
-			(at 221.615 167.64 0)
+			(at 265.43 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13222,6 +15130,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 128.27 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "79f4066b-47cf-4cb9-ab9c-1be2bcc64a07")
+		(property "Reference" "TP31"
+			(at 133.096 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 139.192 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 128.27 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 128.27 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 128.27 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 128.27 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "315efbf4-3018-48a6-8701-282e8b4d774b")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 111.76 130.81 0)
 		(unit 1)
@@ -13375,6 +15368,176 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e56e2dd-2790-408e-961b-1dd69ea68840")
+		(property "Reference" "TP10"
+			(at 218.186 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a18e6a8-8c0d-4441-bc34-b21646905379")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "817bbab1-18fc-42a7-a96b-a79fb89d6041")
+		(property "Reference" "TP12"
+			(at 218.186 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60d31cc1-8836-4eab-90fb-1091bcf094ab")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 238.76 134.62 0)
 		(unit 1)
@@ -13435,6 +15598,91 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
 					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8408081d-e326-465c-9d0f-50917e6ed747")
+		(property "Reference" "TP16"
+			(at 218.186 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63ab8bd8-adb4-46ae-943f-7928f37d2fa6")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -13928,6 +16176,176 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "86bde50b-d5e5-4381-8247-74a43beaff1e")
+		(property "Reference" "TP3"
+			(at 218.186 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09c3b415-56a9-4be7-b33e-9b38a05ad740")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 162.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "87bbffd8-2a49-40e7-9809-617a0e66cdaa")
+		(property "Reference" "TP8"
+			(at 218.186 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "968ca3f1-d602-4ea9-9262-57f3764630ce")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 118.11 173.99 0)
 		(unit 1)
@@ -14042,6 +16460,91 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b815731-0318-4f79-afd6-924d4052e495")
+		(property "Reference" "TP14"
+			(at 218.186 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efdbb407-24f2-4698-b21b-da28fdddece4")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -14404,6 +16907,91 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9221154c-5220-48b6-b0d7-61e076c86501")
+		(property "Reference" "TP13"
+			(at 218.186 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baecd753-4f8b-426f-a7b0-ed1df20a6924")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -15625,6 +18213,269 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "be380145-a79b-4890-96aa-31309143061d")
+		(property "Reference" "TP33"
+			(at 150.876 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 156.972 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 146.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 146.05 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 146.05 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f9feddb-53ff-4a8f-a956-2bff6b828b2b")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Pins_MountingHoles")
+		(at 266.7 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bef8bf9f-c505-4a6e-9d8e-7393f1c87a6e")
+		(property "Reference" "J7"
+			(at 269.24 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DB9 Expander"
+			(at 268.605 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin D-SUB connector, pins (male), Mounting Hole"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "39a37fac-608b-47bc-a1f1-1d5780919af7")
+		)
+		(pin "8"
+			(uuid "1acff5c0-d23a-4c6e-9c50-e2064e280f02")
+		)
+		(pin "1"
+			(uuid "d97880ca-59be-4449-b4bb-cbe0e8b3bf4b")
+		)
+		(pin "0"
+			(uuid "f26c1dbf-6a1c-4dc5-b0de-9f9293fa1dee")
+		)
+		(pin "5"
+			(uuid "a9b976c5-8538-4da8-85b8-1dca0cc19f12")
+		)
+		(pin "9"
+			(uuid "34230502-0509-4e23-9e47-2d7feaa8ee69")
+		)
+		(pin "2"
+			(uuid "8da25664-ba32-4d2d-a1d3-28bf6e7fb8f0")
+		)
+		(pin "6"
+			(uuid "1673435f-c89a-4ad3-b9bb-f17ea2233f04")
+		)
+		(pin "4"
+			(uuid "da5f3bbf-7c6d-4513-b939-c3646b28ef19")
+		)
+		(pin "7"
+			(uuid "5776fafe-8d74-455a-867c-cfd95925c24a")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 100.33 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2aeaa38-70f0-4b93-b3dd-41a8b5c43912")
+		(property "Reference" "TP28"
+			(at 105.156 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 111.252 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 100.33 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 100.33 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 100.33 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 100.33 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a91e3306-c17f-49ab-9e85-8504c6bcf8ea")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 218.44 134.62 90)
 		(unit 1)
@@ -16586,6 +19437,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d68d73ac-e8c5-4226-aaab-adaad486e5f3")
+		(property "Reference" "TP21"
+			(at 218.186 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97397cc4-92da-4855-b9a5-baade3943bb6")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "gkl_power:GND")
 		(at 100.33 187.96 0)
@@ -17418,6 +20354,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa9c3ab7-d10a-45ff-ab7d-69e1fd99cdcf")
+		(property "Reference" "TP34"
+			(at 159.766 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.862 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 154.94 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 154.94 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 154.94 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "492aca07-2ff2-45cf-8e4d-08578bd92b82")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 146.05 173.99 0)
 		(unit 1)
@@ -17532,6 +20553,91 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff2ab289-2855-486f-8281-d971137c6bfc")
+		(property "Reference" "TP9"
+			(at 218.186 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.282 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 213.36 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59d5a5d5-74b9-41d8-be33-6d6b4bc80fa5")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -17747,7 +20853,7 @@
 	)
 	(sheet
 		(at 180.34 59.69)
-		(size 21.59 126.365)
+		(size 21.59 133.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -17771,7 +20877,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA.kicad_sch"
-			(at 180.34 186.6396 0)
+			(at 180.34 193.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18129,9 +21235,9 @@
 				(justify right)
 			)
 		)
-		(pin "DB3" input
-			(at 201.93 172.72 0)
-			(uuid "e4159eb3-284d-4f9f-b462-0a43723eca50")
+		(pin "P1_DB7" input
+			(at 201.93 182.88 0)
+			(uuid "bb8d8814-cf99-4ee8-9b60-2bd9a0c9359b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18139,59 +21245,9 @@
 				(justify right)
 			)
 		)
-		(pin "DB5" input
-			(at 201.93 157.48 0)
-			(uuid "4aaa61d3-e4f0-41a6-8240-a9eb10613c24")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DB2" input
-			(at 201.93 167.64 0)
-			(uuid "61432ce0-b07f-4a6e-8540-b6ab84bb1d55")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DB9" input
-			(at 201.93 160.02 0)
-			(uuid "9c10b156-435b-4f93-873f-c7ed8ffe2a0f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DB4" input
-			(at 201.93 162.56 0)
-			(uuid "32a35316-6bcb-440f-a70c-cf749b98965e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DB1" input
-			(at 201.93 177.8 0)
-			(uuid "340f6668-5f7e-48af-bdfb-8bbbffb100f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DB8" input
+		(pin "P0_DB6" input
 			(at 201.93 165.1 0)
-			(uuid "3ef8357d-8c5b-4fd4-ad2a-82485a90b4b6")
+			(uuid "f4bc16e0-5336-490e-8148-0efdd0199c04")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18199,9 +21255,9 @@
 				(justify right)
 			)
 		)
-		(pin "DB6" input
-			(at 201.93 175.26 0)
-			(uuid "e732e4e1-d58b-4855-8f95-5488e663b772")
+		(pin "P0_DB4" input
+			(at 201.93 152.4 0)
+			(uuid "de411c07-46de-4bb2-b72c-0df9cf602c47")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18209,9 +21265,149 @@
 				(justify right)
 			)
 		)
-		(pin "DB7" input
+		(pin "P0_DB3" input
+			(at 201.93 162.56 0)
+			(uuid "46a0fe9d-1c90-4f48-a242-ca64c0a32419")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P0_DB1" input
+			(at 201.93 167.64 0)
+			(uuid "29653d8b-0d33-47a4-9824-5539d07d4c87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P0_DB2" input
+			(at 201.93 157.48 0)
+			(uuid "91cf9018-79e0-4f50-bbef-1500ac688419")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P0_DB5" input
+			(at 201.93 147.32 0)
+			(uuid "7da6dad6-e84e-45c0-9376-5b42c31cbb52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P0_DB7" input
+			(at 201.93 160.02 0)
+			(uuid "c7187245-02a8-4d73-9c37-f6d75fab57d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P0_DB8" input
+			(at 201.93 154.94 0)
+			(uuid "3ea18623-d610-4497-8cd8-24fad8b7ffbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P0_DB9" input
+			(at 201.93 149.86 0)
+			(uuid "e101a56a-630a-4afc-a2d1-50dc84bf321d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P1_DB3" input
+			(at 201.93 185.42 0)
+			(uuid "25deb17c-c330-4e3a-93eb-d287f13dc6f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P1_DB6" input
+			(at 201.93 187.96 0)
+			(uuid "ee7d4e0a-fe3b-42fd-b859-490d5f2788c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P1_DB8" input
+			(at 201.93 177.8 0)
+			(uuid "cb91278f-5acf-4b63-b6f0-5ab50eb6833d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P1_DB5" input
 			(at 201.93 170.18 0)
-			(uuid "5c7e6015-754d-465f-8bce-fa442ebba2a1")
+			(uuid "894c29ff-8df9-457b-bec4-20660709c36e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P1_DB2" input
+			(at 201.93 180.34 0)
+			(uuid "9b8c7e8c-907f-43ee-8c3f-0427b83580ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P1_DB9" input
+			(at 201.93 172.72 0)
+			(uuid "5f9bd375-a947-404e-a405-c82a7d5e094a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P1_DB4" input
+			(at 201.93 175.26 0)
+			(uuid "7c1c6d02-3cae-4b18-bfa2-34291fdbed2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P1_DB1" input
+			(at 201.93 190.5 0)
+			(uuid "d5c75289-7556-4c85-b50a-08ed4f9a44a3")
 			(effects
 				(font
 					(size 1.27 1.27)

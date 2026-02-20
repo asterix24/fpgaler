@@ -4676,7 +4676,7 @@
 	)
 	(hierarchical_label "12MHz"
 		(shape input)
-		(at 78.74 171.45 180)
+		(at 83.82 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10120,100 +10120,6 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
 					(reference "R65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UPduino_v3.0:Device_R_Small")
-		(at 81.28 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6fee354-2567-4e3c-8fc4-d8886b93f849")
-		(property "Reference" "R49"
-			(at 83.82 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 77.47 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 81.28 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 81.28 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 81.28 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21189"
-			(at 81.28 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb7de794-d793-4a24-a761-ace32e1f8590")
-		)
-		(pin "2"
-			(uuid "abdcf754-1640-4ee4-896e-2f2bad12680f")
-		)
-		(instances
-			(project "fpgaler"
-				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "R49")
 					(unit 1)
 				)
 			)
