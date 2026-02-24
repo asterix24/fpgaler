@@ -7952,7 +7952,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 110.49) (xy 59.69 110.49)
+			(xy 52.07 110.49) (xy 71.12 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8352,7 +8352,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 109.22) (xy 154.94 109.22)
+			(xy 66.04 105.41) (xy 69.85 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8742,7 +8742,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 101.6) (xy 139.7 101.6)
+			(xy 58.42 100.33) (xy 52.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8789,16 +8789,6 @@
 			(type default)
 		)
 		(uuid "6a0b7103-14ea-4fb7-9e98-0badf61aa526")
-	)
-	(wire
-		(pts
-			(xy 53.34 8.255) (xy 62.23 8.255)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a3373db-63cd-4c19-8f23-dbd2d828dda0")
 	)
 	(wire
 		(pts
@@ -8912,6 +8902,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 105.41) (xy 58.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c28a0d-1dda-44a8-87bb-e4d8e40df44a")
+	)
+	(wire
+		(pts
 			(xy 175.26 64.77) (xy 184.15 64.77)
 		)
 		(stroke
@@ -8982,7 +8982,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 111.76) (xy 154.94 111.76)
+			(xy 66.04 107.95) (xy 69.85 107.95)
 		)
 		(stroke
 			(width 0)
@@ -9112,7 +9112,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 104.14) (xy 157.48 104.14)
+			(xy 66.04 102.87) (xy 69.85 102.87)
 		)
 		(stroke
 			(width 0)
@@ -9189,6 +9189,16 @@
 			(type default)
 		)
 		(uuid "90897d88-9108-4ffa-84c4-4c81cda59e50")
+	)
+	(wire
+		(pts
+			(xy 52.07 107.95) (xy 58.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9319e9b8-eb38-4828-a5ab-752cf7dcf482")
 	)
 	(wire
 		(pts
@@ -9419,6 +9429,16 @@
 			(type default)
 		)
 		(uuid "a33d79da-2830-4513-a6f7-8bffce554a68")
+	)
+	(wire
+		(pts
+			(xy 52.07 113.03) (xy 71.12 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a473a2af-0c06-431d-b651-4f2217e2bc78")
 	)
 	(wire
 		(pts
@@ -9682,16 +9702,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 5.715) (xy 62.23 5.715)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c86daa55-4689-4667-b226-afc91c707582")
-	)
-	(wire
-		(pts
 			(xy 175.26 44.45) (xy 184.15 44.45)
 		)
 		(stroke
@@ -9812,7 +9822,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 101.6) (xy 157.48 101.6)
+			(xy 66.04 100.33) (xy 69.85 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9882,7 +9892,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 104.14) (xy 139.7 104.14)
+			(xy 58.42 102.87) (xy 52.07 102.87)
 		)
 		(stroke
 			(width 0)
@@ -11593,12 +11603,12 @@
 		)
 	)
 	(label "scl"
-		(at 57.15 8.255 0)
+		(at 69.85 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cc00d8db-2e0d-400a-adfd-8f6a942876dd")
 	)
@@ -11713,12 +11723,12 @@
 		)
 	)
 	(label "sda"
-		(at 57.15 5.715 0)
+		(at 69.85 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "df5af0c0-2a18-476d-8d5c-008a1c4f7fb7")
 	)
@@ -12176,7 +12186,7 @@
 	)
 	(hierarchical_label "SCL0"
 		(shape input)
-		(at 154.94 109.22 0)
+		(at 69.85 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12418,7 +12428,7 @@
 	)
 	(hierarchical_label "RXD_UART"
 		(shape input)
-		(at 157.48 104.14 0)
+		(at 69.85 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12429,7 +12439,7 @@
 	)
 	(hierarchical_label "TXD_UART"
 		(shape input)
-		(at 157.48 101.6 0)
+		(at 69.85 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12528,7 +12538,7 @@
 	)
 	(hierarchical_label "SDA0"
 		(shape input)
-		(at 154.94 111.76 0)
+		(at 69.85 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20977,7 +20987,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 101.6 90)
+		(at 62.23 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20985,7 +20995,7 @@
 		(dnp no)
 		(uuid "0d8e5d0b-950c-4600-800a-81007ff2d533")
 		(property "Reference" "R69"
-			(at 145.415 100.965 90)
+			(at 57.785 99.695 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20993,7 +21003,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 149.86 101.6 90)
+			(at 62.23 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21001,7 +21011,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 149.86 103.378 90)
+			(at 62.23 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21010,7 +21020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 101.6 0)
+			(at 62.23 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21019,7 +21029,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 101.6 0)
+			(at 62.23 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21027,7 +21037,7 @@
 			)
 		)
 		(property "Mfg" "‎Yageo‎"
-			(at 149.86 101.6 0)
+			(at 62.23 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21036,7 +21046,7 @@
 			)
 		)
 		(property "PN" "RC0201FR-0720RL"
-			(at 149.86 101.6 0)
+			(at 62.23 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21045,7 +21055,7 @@
 			)
 		)
 		(property "Mfg_1" "UNI-ROYAL(Uniroyal Elec)"
-			(at 149.86 101.6 0)
+			(at 62.23 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21054,7 +21064,7 @@
 			)
 		)
 		(property "PN_1" "0201WMF200JTCE"
-			(at 149.86 101.6 0)
+			(at 62.23 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21063,7 +21073,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 149.86 101.6 90)
+			(at 62.23 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21072,7 +21082,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 149.86 101.6 90)
+			(at 62.23 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21856,90 +21866,6 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/1fb0db02-7c5c-4a46-991b-5c62e29077e4"
 					(reference "TP61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 48.26 17.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "168feb92-5a6b-48ef-8dbb-265f5ace6daa")
-		(property "Reference" "TP20"
-			(at 53.086 17.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 59.182 17.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 48.26 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 48.26 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 48.26 17.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 48.26 17.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21e7f825-093c-4aae-a082-73505315f7b4")
-		)
-		(instances
-			(project "fpgaler"
-				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/1fb0db02-7c5c-4a46-991b-5c62e29077e4"
-					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -23032,7 +22958,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 109.22 90)
+		(at 62.23 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23040,7 +22966,7 @@
 		(dnp no)
 		(uuid "25f78396-abb8-441c-9543-289a77443c69")
 		(property "Reference" "R67"
-			(at 142.875 108.585 90)
+			(at 57.785 104.775 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23048,7 +22974,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 147.32 109.22 90)
+			(at 62.23 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23056,7 +22982,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 147.32 110.998 90)
+			(at 62.23 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23065,7 +22991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 109.22 0)
+			(at 62.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23074,7 +23000,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 109.22 0)
+			(at 62.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23082,7 +23008,7 @@
 			)
 		)
 		(property "Mfg" "‎Yageo‎"
-			(at 147.32 109.22 0)
+			(at 62.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23091,7 +23017,7 @@
 			)
 		)
 		(property "PN" "RC0201FR-0720RL"
-			(at 147.32 109.22 0)
+			(at 62.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23100,7 +23026,7 @@
 			)
 		)
 		(property "Mfg_1" "UNI-ROYAL(Uniroyal Elec)"
-			(at 147.32 109.22 0)
+			(at 62.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23109,7 +23035,7 @@
 			)
 		)
 		(property "PN_1" "0201WMF200JTCE"
-			(at 147.32 109.22 0)
+			(at 62.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23118,7 +23044,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 147.32 109.22 90)
+			(at 62.23 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23127,7 +23053,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 147.32 109.22 90)
+			(at 62.23 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23385,7 +23311,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 111.76 90)
+		(at 62.23 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23393,7 +23319,7 @@
 		(dnp no)
 		(uuid "2d691f6c-77bd-4b99-8eed-1628c6cd0af0")
 		(property "Reference" "R68"
-			(at 142.875 111.125 90)
+			(at 57.785 107.315 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23401,7 +23327,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 147.32 111.76 90)
+			(at 62.23 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23409,7 +23335,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 147.32 113.538 90)
+			(at 62.23 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23418,7 +23344,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 111.76 0)
+			(at 62.23 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23427,7 +23353,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 111.76 0)
+			(at 62.23 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23435,7 +23361,7 @@
 			)
 		)
 		(property "Mfg" "‎Yageo‎"
-			(at 147.32 111.76 0)
+			(at 62.23 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23444,7 +23370,7 @@
 			)
 		)
 		(property "PN" "RC0201FR-0720RL"
-			(at 147.32 111.76 0)
+			(at 62.23 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23453,7 +23379,7 @@
 			)
 		)
 		(property "Mfg_1" "UNI-ROYAL(Uniroyal Elec)"
-			(at 147.32 111.76 0)
+			(at 62.23 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23462,7 +23388,7 @@
 			)
 		)
 		(property "PN_1" "0201WMF200JTCE"
-			(at 147.32 111.76 0)
+			(at 62.23 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23471,7 +23397,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 147.32 111.76 90)
+			(at 62.23 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23480,7 +23406,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 147.32 111.76 90)
+			(at 62.23 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26980,90 +26906,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 48.895 21.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "773d5907-f3cb-4479-83d6-7e2d72040fa5")
-		(property "Reference" "TP23"
-			(at 53.721 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 59.817 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 48.895 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.895 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 48.895 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 48.895 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 48.895 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "875982cc-9f0c-4022-910e-ff8390b39ee7")
-		)
-		(instances
-			(project "fpgaler"
-				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/1fb0db02-7c5c-4a46-991b-5c62e29077e4"
-					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 137.16 172.72 180)
 		(unit 1)
@@ -28578,90 +28420,6 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/1fb0db02-7c5c-4a46-991b-5c62e29077e4"
 					(reference "R115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 48.26 15.24 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "92178d25-61ac-4e62-8df5-03c4e9832d9b")
-		(property "Reference" "TP19"
-			(at 53.086 15.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 59.055 15.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 48.26 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 48.26 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 48.26 15.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 48.26 15.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6c39d4b-67f1-4c1d-b00b-784ce26bed32")
-		)
-		(instances
-			(project "fpgaler"
-				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/1fb0db02-7c5c-4a46-991b-5c62e29077e4"
-					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -33009,90 +32767,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 48.895 24.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e697c5a7-3fb8-467b-b0a0-382272f5dbfb")
-		(property "Reference" "TP24"
-			(at 53.721 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 59.817 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 48.895 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.895 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 48.895 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 48.895 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 48.895 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02423256-31cf-4599-814c-34bfa0eb5ba4")
-		)
-		(instances
-			(project "fpgaler"
-				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/1fb0db02-7c5c-4a46-991b-5c62e29077e4"
-					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 48.26 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33857,7 +33531,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 104.14 90)
+		(at 62.23 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33865,7 +33539,7 @@
 		(dnp no)
 		(uuid "f7c4ce2c-1694-42f5-866b-d6fc7db999fb")
 		(property "Reference" "R70"
-			(at 145.415 103.505 90)
+			(at 57.785 102.235 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33873,7 +33547,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 149.86 104.14 90)
+			(at 62.23 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33881,7 +33555,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 149.86 105.918 90)
+			(at 62.23 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33890,7 +33564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 104.14 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33899,7 +33573,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 104.14 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33907,7 +33581,7 @@
 			)
 		)
 		(property "Mfg" "‎Yageo‎"
-			(at 149.86 104.14 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33916,7 +33590,7 @@
 			)
 		)
 		(property "PN" "RC0201FR-0720RL"
-			(at 149.86 104.14 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33925,7 +33599,7 @@
 			)
 		)
 		(property "Mfg_1" "UNI-ROYAL(Uniroyal Elec)"
-			(at 149.86 104.14 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33934,7 +33608,7 @@
 			)
 		)
 		(property "PN_1" "0201WMF200JTCE"
-			(at 149.86 104.14 0)
+			(at 62.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33943,7 +33617,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 149.86 104.14 90)
+			(at 62.23 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33952,7 +33626,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 149.86 104.14 90)
+			(at 62.23 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)

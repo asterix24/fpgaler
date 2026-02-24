@@ -1832,104 +1832,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "UPduino_v3.0:Connector_TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Connector_TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Connector_TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Connector_TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "UPduino_v3.0:Device_C"
 			(pin_numbers
 				(hide yes)
@@ -2900,12 +2802,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf7f6ab9-94fb-41e8-a515-4faebbcf7fc1")
-	)
-	(junction
-		(at 233.68 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c527d103-aa31-4d38-b7a6-900655d597b2")
 	)
 	(junction
 		(at 157.48 66.04)
@@ -4271,7 +4167,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 82.55) (xy 251.46 82.55)
+			(xy 232.41 82.55) (xy 251.46 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4508,16 +4404,6 @@
 			(type default)
 		)
 		(uuid "fd04fb53-3963-475d-893a-fb4c9b65fa18")
-	)
-	(wire
-		(pts
-			(xy 232.41 82.55) (xy 233.68 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdb0c465-d3c5-452a-9bcb-84f230e48d02")
 	)
 	(label "V_PLL"
 		(at 199.39 48.26 180)
@@ -4896,91 +4782,6 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
 					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UPduino_v3.0:Connector_TestPoint")
-		(at 233.68 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e1aa337")
-		(property "Reference" "TP1"
-			(at 233.68 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 232.537 87.3252 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 228.6 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 233.68 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 233.68 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "048eae62-e02b-400c-b9fc-ce39449d7544")
-		)
-		(instances
-			(project "fpgaler"
-				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/40d0c523-fc24-4097-9888-0fa62d687751"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
