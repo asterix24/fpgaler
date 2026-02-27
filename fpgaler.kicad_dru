@@ -1,7 +1,7 @@
 (version 1)
 (rule "track 0.25"
     (constraint clearance (min 0.25mm))
-    (condition "A.Type == 'Track' && A.Size == 0.25mm"))
+    (condition "A.Type == 'Track' && A.Size > 0.1mm"))
 
 (rule "Pad to Track Clearance"
     (constraint clearance (min 0.089mm))
