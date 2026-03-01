@@ -4571,7 +4571,7 @@
 		)
 		(uuid "79135e9e-5137-4e3a-bfdc-0bdb395942e0")
 	)
-	(hierarchical_label "DP"
+	(hierarchical_label "D_P"
 		(shape input)
 		(at 72.39 102.87 180)
 		(effects
@@ -4581,6 +4581,16 @@
 			(justify right)
 		)
 		(uuid "aba9b193-daac-489b-aea0-5f083671f7dc")
+		(property "Netclass" "diff90"
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(hierarchical_label "FT_RESET"
 		(shape input)
@@ -4593,7 +4603,7 @@
 		)
 		(uuid "bb2e710d-aa34-41bb-860f-61cf64602e03")
 	)
-	(hierarchical_label "DM"
+	(hierarchical_label "D_N"
 		(shape input)
 		(at 72.39 100.33 180)
 		(effects
@@ -4603,6 +4613,16 @@
 			(justify right)
 		)
 		(uuid "bd8c7dcd-ceee-4e13-8dd0-09f581247c51")
+		(property "Netclass" "diff90"
+			(at 78.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(hierarchical_label "FT_TDO"
 		(shape input)
@@ -7411,7 +7431,7 @@
 				)
 			)
 		)
-		(property "Value" "CBG160808U150T"
+		(property "Value" "15Ω@100MHz"
 			(at 180.34 52.07 90)
 			(effects
 				(font
@@ -7419,7 +7439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 181.61 46.482 90)
 			(effects
 				(font
@@ -7437,7 +7457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CBG160808U150T"
 			(at 181.61 48.26 0)
 			(effects
 				(font
@@ -8063,7 +8083,7 @@
 				)
 			)
 		)
-		(property "Value" "CBG160808U150T"
+		(property "Value" "15Ω@100MHz"
 			(at 182.245 30.48 90)
 			(effects
 				(font
@@ -8071,7 +8091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 181.61 32.512 90)
 			(effects
 				(font
@@ -8089,7 +8109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CBG160808U150T"
 			(at 181.61 34.29 0)
 			(effects
 				(font

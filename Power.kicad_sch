@@ -151,6 +151,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
@@ -2049,10 +2198,16 @@
 		(uuid "43a5a147-0201-4287-b9ed-344297740f42")
 	)
 	(junction
-		(at 129.54 139.7)
+		(at 156.21 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4f47af46-09a9-4af2-ad17-bf03b1a1a25e")
+		(uuid "50a2ae47-5f6f-439c-ac04-36279023b0fd")
+	)
+	(junction
+		(at 166.37 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "532bba35-b7c3-4d7d-8704-b28739cdc51c")
 	)
 	(junction
 		(at 156.21 105.41)
@@ -2097,16 +2252,16 @@
 		(uuid "b92adb27-9a83-4396-bdbb-12c8a8150cb3")
 	)
 	(junction
-		(at 156.21 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be190bba-f001-469a-b68b-d7578e7a2551")
-	)
-	(junction
 		(at 151.13 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bef52ed2-2787-48fd-9758-fded868b968c")
+	)
+	(junction
+		(at 129.54 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d39820a8-cee6-4d34-b619-8f36e196a274")
 	)
 	(junction
 		(at 132.08 105.41)
@@ -2214,6 +2369,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 105.41) (xy 168.91 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17bab7c8-b649-4e41-a843-f9096e12d9f2")
+	)
+	(wire
+		(pts
+			(xy 166.37 137.16) (xy 168.91 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18074784-3906-4ee5-a103-d7632d2ea151")
+	)
+	(wire
+		(pts
 			(xy 110.49 114.3) (xy 113.03 114.3)
 		)
 		(stroke
@@ -2304,6 +2479,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 139.7) (xy 129.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3954629e-3003-4cc6-8de9-46ecfe7eede2")
+	)
+	(wire
+		(pts
 			(xy 78.74 78.74) (xy 78.74 81.28)
 		)
 		(stroke
@@ -2341,6 +2526,26 @@
 			(type default)
 		)
 		(uuid "3e762609-1a50-4c25-8f08-af8068be7dcd")
+	)
+	(wire
+		(pts
+			(xy 176.53 105.41) (xy 185.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eeb694a-57f0-463f-bfc1-721b9c43e10f")
+	)
+	(wire
+		(pts
+			(xy 156.21 69.85) (xy 168.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d36510-6b2e-4407-a988-c66afc462864")
 	)
 	(wire
 		(pts
@@ -2441,6 +2646,16 @@
 			(type default)
 		)
 		(uuid "598e9263-a7c8-40ac-bf99-38508ac80c02")
+	)
+	(wire
+		(pts
+			(xy 176.53 137.16) (xy 185.42 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a773aa-c8bd-447c-9f8e-2fa01b3aadda")
 	)
 	(wire
 		(pts
@@ -2574,6 +2789,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 134.62) (xy 166.37 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c545aa7-d76d-460c-8c61-1e8f25dd494a")
+	)
+	(wire
+		(pts
 			(xy 80.01 114.3) (xy 80.01 116.84)
 		)
 		(stroke
@@ -2651,6 +2876,16 @@
 			(type default)
 		)
 		(uuid "a43ad485-1a47-4ba9-a280-0e7af15eaad5")
+	)
+	(wire
+		(pts
+			(xy 129.54 134.62) (xy 166.37 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82c7ad6-bb82-472c-a39d-446e3a546438")
 	)
 	(wire
 		(pts
@@ -2784,6 +3019,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 69.85) (xy 185.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29cb3cc-f787-4e94-a36a-ab1c557ee212")
+	)
+	(wire
+		(pts
 			(xy 111.76 78.74) (xy 111.76 69.85)
 		)
 		(stroke
@@ -2851,6 +3096,16 @@
 			(type default)
 		)
 		(uuid "d42d79ff-c0c1-497a-94c0-6efc89d77a2b")
+	)
+	(wire
+		(pts
+			(xy 166.37 143.51) (xy 166.37 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a7a1b1-7d82-4c17-869d-666cea4138aa")
 	)
 	(wire
 		(pts
@@ -6108,6 +6363,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 172.72 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ba752c7-2a22-4ee5-9f36-79f0628458e4")
+		(property "Reference" "FB6"
+			(at 172.6692 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15Ω@100MHz"
+			(at 172.6692 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 172.72 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CBG160808U150T"
+			(at 172.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6207cc50-fa33-4b89-bd7c-fe890bbe18ab")
+		)
+		(pin "1"
+			(uuid "75aaba73-2ec7-4d1e-aed2-4c3400bfc9e4")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/3cd5b8e4-e0a8-4d4d-99f4-ccb158a12000"
+					(reference "FB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 132.08 121.92 0)
 		(unit 1)
@@ -6412,6 +6735,74 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/3cd5b8e4-e0a8-4d4d-99f4-ccb158a12000"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 172.72 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3395f27d-9f86-4cc0-a624-fb7ac196d6fc")
+		(property "Reference" "FB5"
+			(at 172.6692 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15Ω@100MHz"
+			(at 172.6692 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 172.72 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CBG160808U150T"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60c81f8d-d12b-4ced-9cdf-0076884b7ac8")
+		)
+		(pin "1"
+			(uuid "cf4b28d1-56bf-4f4e-9438-173a115cac56")
+		)
+		(instances
+			(project "fpgaler"
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/3cd5b8e4-e0a8-4d4d-99f4-ccb158a12000"
+					(reference "FB5")
 					(unit 1)
 				)
 			)
@@ -6821,7 +7212,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 156.21 105.41 0)
+		(at 185.42 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6830,7 +7221,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b0bffea-88b5-4a1a-8ec9-f2cbe8288dc3")
 		(property "Reference" "#PWR067"
-			(at 156.21 109.22 0)
+			(at 185.42 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6839,7 +7230,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 156.21 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +7238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 105.41 0)
+			(at 185.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,7 +7247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 105.41 0)
+			(at 185.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +7256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 156.21 105.41 0)
+			(at 185.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,73 +7541,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 129.54 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e011003e-01fa-4c07-acac-c48e598c65f0")
-		(property "Reference" "#PWR060"
-			(at 129.54 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2.5V"
-			(at 129.54 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 129.54 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "510ee3df-3cb3-4b54-a96b-ad823b0f9aa9")
-		)
-		(instances
-			(project "fpgaler"
-				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/3cd5b8e4-e0a8-4d4d-99f4-ccb158a12000"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 166.37 143.51 0)
+		(at 185.42 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7225,7 +7550,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1e822fd-ceca-45c3-9299-d7b304b14066")
 		(property "Reference" "#PWR0138"
-			(at 166.37 147.32 0)
+			(at 185.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,7 +7559,7 @@
 			)
 		)
 		(property "Value" "+2.5V"
-			(at 166.37 138.43 0)
+			(at 185.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 143.51 0)
+			(at 185.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,7 +7576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 143.51 0)
+			(at 185.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 166.37 143.51 0)
+			(at 185.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,8 +7606,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 172.72 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f134a23a-2d33-4909-af84-e8c2189a3a48")
+		(property "Reference" "FB4"
+			(at 172.6692 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15Ω@100MHz"
+			(at 172.6692 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 172.72 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CBG160808U150T"
+			(at 172.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "484a961f-0d47-4090-89fc-ff00df238df6")
+		)
+		(pin "1"
+			(uuid "7040754e-bb03-41b2-a96a-68198ab96fa8")
+		)
+		(instances
+			(project ""
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770/3cd5b8e4-e0a8-4d4d-99f4-ccb158a12000"
+					(reference "FB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 156.21 69.85 0)
+		(at 185.42 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7291,7 +7684,7 @@
 		(fields_autoplaced yes)
 		(uuid "f81f7c7f-bf45-45d9-8433-29c0207aa977")
 		(property "Reference" "#PWR066"
-			(at 156.21 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7300,7 +7693,7 @@
 			)
 		)
 		(property "Value" "+1.1V"
-			(at 156.21 64.77 0)
+			(at 185.42 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,7 +7701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 69.85 0)
+			(at 185.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 69.85 0)
+			(at 185.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 156.21 69.85 0)
+			(at 185.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
