@@ -12740,7 +12740,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "INITN"
 			(at 236.5375 114.3 0)
 			(effects
 				(font
@@ -14391,7 +14391,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "DONE"
 			(at 219.71 141.2874 90)
 			(effects
 				(font

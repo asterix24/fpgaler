@@ -252,6 +252,39 @@
         "activeLayer": -2,
         "flipBoard": false,
         "layers": [
+          1,
+          5,
+          25,
+          29,
+          31
+        ],
+        "name": "st",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "drc_exclusions",
+          "conflict_shadows",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
           0,
           4,
           25,
@@ -984,7 +1017,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
