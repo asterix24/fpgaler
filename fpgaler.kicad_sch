@@ -175,480 +175,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:DE9_Pins_MountingHoles"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DE9_Pins_MountingHoles"
-				(at 0 14.605 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "9-pin D-SUB connector, pins (male), Mounting Hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DSUB DB9"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DSUB*Pins*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DE9_Pins_MountingHoles_0_1"
-				(polyline
-					(pts
-						(xy -3.81 10.16) (xy -2.54 10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 7.62) (xy 0.508 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy 0.508 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy 0.508 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -7.62) (xy 0.508 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -10.16) (xy -2.54 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -13.335) (xy -3.81 13.335) (xy 3.81 9.525) (xy 3.81 -9.525) (xy -3.81 -13.335)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -1.778 10.16)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.778 5.08)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.778 -5.08)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.778 -10.16)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 7.62)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 2.54)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 -2.54)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 -7.62)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "DE9_Pins_MountingHoles_1_1"
-				(pin passive line
-					(at -7.62 10.16 0)
-					(length 3.81)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 7.62 0)
-					(length 3.81)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 5.08 0)
-					(length 3.81)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -5.08 0)
-					(length 3.81)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -7.62 0)
-					(length 3.81)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -10.16 0)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 90)
-					(length 3.81)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2745,6 +2271,629 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEDA_Lib:DMR-9P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DSUB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:DSUB-TH_DMR-9P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/D-DMR009PM-D002/153211.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector Type:Standard D-Sub Gender:Male Number of Pins:9P Mounting Type:Right Angle Number of Rows:2 Current Rating-Signal:3A Current Rating-Power:- Voltage Rating:- Color:Black Operating Temperature:-50°C~+105°C Operating Temperature:-50°C~+105°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "D-DMR009PM-D002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Ckmtw(灿科盟)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C141880"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "DMR9公"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMR-9P_1_0"
+				(polyline
+					(pts
+						(xy -3.81 11.938) (xy -3.81 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy 0.508 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy 0.508 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -3.81 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -11.938) (xy -3.81 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.7846 -11.811) (xy -3.7338 -12.2174) (xy -3.7338 -12.2174) (xy -3.4544 -12.4968) (xy -3.4544 -12.4968)
+						(xy -3.1242 -12.6492) (xy -3.1242 -12.6492) (xy -2.8194 -12.6746) (xy -2.8194 -12.6746) (xy -2.4892 -12.6492)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.4892 12.6492) (xy -2.8194 12.6746) (xy -2.8194 12.6746) (xy -3.1242 12.6492) (xy -3.1242 12.6492)
+						(xy -3.4544 12.4968) (xy -3.4544 12.4968) (xy -3.7338 12.2174) (xy -3.7338 12.2174) (xy -3.7846 11.811)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 10.16) (xy -3.81 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 5.08) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -5.08) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -10.16) (xy -3.81 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.8702 11.3792)
+					(mid 3.5332 10.9185)
+					(end 3.81 10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -10.16)
+					(mid 3.5266 -10.9273)
+					(end 2.8448 -11.3792)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 11.43) (xy -2.54 12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -11.43) (xy -2.54 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -10.16) (xy 3.81 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -8.89 10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 7.62 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 5.08 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -5.08 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -7.62 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -10.16 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 2.54 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -2.54 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA_Lib:HYC06-HDR15B-060"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4204,6 +4353,12 @@
 		(uuid "23a35fe1-b39a-4cf9-a237-12856b8ebb85")
 	)
 	(junction
+		(at 275.59 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34f11851-0062-4741-9647-e5b914d8e3c3")
+	)
+	(junction
 		(at 222.25 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4220,6 +4375,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45afee27-c688-412d-8659-f3cd61278244")
+	)
+	(junction
+		(at 275.59 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "559055d6-bea5-4d5a-8a6f-70433ec08fdf")
 	)
 	(junction
 		(at 120.65 100.33)
@@ -6471,6 +6632,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 67.31) (xy 275.59 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99924fb-5e7f-40fb-a282-f48c26e83590")
+	)
+	(wire
+		(pts
 			(xy 246.38 34.29) (xy 257.81 34.29)
 		)
 		(stroke
@@ -6598,6 +6769,16 @@
 			(type default)
 		)
 		(uuid "ed6d8986-b674-4a2e-9b9d-66b49577dd84")
+	)
+	(wire
+		(pts
+			(xy 275.59 31.75) (xy 275.59 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efba0720-cb57-4ec5-9769-5d11796e05d9")
 	)
 	(wire
 		(pts
@@ -8111,7 +8292,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN_1" "C167321"
+		(property "PN_1" "C2765186"
 			(at 34.29 52.07 0)
 			(effects
 				(font
@@ -8129,7 +8310,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "USB4105-GF-A"
+		(property "PN" ""
 			(at 34.29 52.07 0)
 			(effects
 				(font
@@ -10708,7 +10889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 13.208 106.68 90)
 			(effects
 				(font
@@ -11618,7 +11799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 13.208 97.79 90)
 			(effects
 				(font
@@ -13417,7 +13598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "2.5V"
 			(at 13.208 92.71 90)
 			(effects
 				(font
@@ -14097,7 +14278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "2.5V"
 			(at 13.208 101.6 90)
 			(effects
 				(font
@@ -15645,99 +15826,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:DE9_Pins_MountingHoles")
-		(at 265.43 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6dcb0f4e-742b-417c-a83e-64d1a75c6997")
-		(property "Reference" "J6"
-			(at 267.97 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DB9 Expander 1"
-			(at 271.78 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
-			(at 265.43 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "9-pin D-SUB connector, pins (male), Mounting Hole"
-			(at 265.43 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "431fc522-6ba2-4a2d-add9-cea26dd69aa6")
-		)
-		(pin "8"
-			(uuid "c52503cb-c0ab-4831-baad-a42db0a9ae63")
-		)
-		(pin "1"
-			(uuid "f976cb32-f945-456d-8b52-2c0c7f9dd1f1")
-		)
-		(pin "0"
-			(uuid "32b3e917-fd10-4507-8ccf-29f9afad1768")
-		)
-		(pin "5"
-			(uuid "d4f55191-1537-4909-adaf-cc7b20f02a7d")
-		)
-		(pin "9"
-			(uuid "1d7aae2d-3fa9-42e4-a1a5-17bdc612e021")
-		)
-		(pin "2"
-			(uuid "21575422-a849-48a6-b0d0-5fe06a1a83f0")
-		)
-		(pin "6"
-			(uuid "406fb15a-5793-4b6b-b895-b04a8e0ad7ad")
-		)
-		(pin "4"
-			(uuid "9b5449fc-c0de-4393-bc16-ded6d9ba3601")
-		)
-		(pin "7"
-			(uuid "24ebfe71-a8cd-44d7-9298-ea82654839ff")
-		)
-		(instances
-			(project ""
-				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 143.51 147.32 0)
 		(unit 1)
@@ -16174,7 +16262,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 85.09 0)
+		(at 275.59 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16183,7 +16271,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a2e7ac5-190b-4f72-8998-12a3986693d2")
 		(property "Reference" "#PWR018"
-			(at 265.43 91.44 0)
+			(at 275.59 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16192,7 +16280,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 90.17 0)
+			(at 275.59 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16200,7 +16288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 85.09 0)
+			(at 275.59 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16209,7 +16297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 85.09 0)
+			(at 275.59 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16218,7 +16306,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 85.09 0)
+			(at 275.59 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18763,7 +18851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "3.3V"
 			(at 13.208 95.25 90)
 			(effects
 				(font
@@ -20116,7 +20204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "3.3V"
 			(at 13.208 104.14 90)
 			(effects
 				(font
@@ -20178,6 +20266,145 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
 					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:DMR-9P")
+		(at 266.7 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa559081-5931-4a0f-bd87-f44b5aa74b89")
+		(property "Reference" "J7"
+			(at 266.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB9 Expander 0"
+			(at 252.73 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:DSUB-TH_DMR-9P"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/D-DMR009PM-D002/153211.html"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Type:Standard D-Sub Gender:Male Number of Pins:9P Mounting Type:Right Angle Number of Rows:2 Current Rating-Signal:3A Current Rating-Power:- Voltage Rating:- Color:Black Operating Temperature:-50°C~+105°C Operating Temperature:-50°C~+105°C"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "D-DMR009PM-D002"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Ckmtw(灿科盟)"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C141880"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "DMR9公"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "921fd549-d428-49c9-8d10-6c998dd499ff")
+		)
+		(pin "4"
+			(uuid "60c04210-003b-4ee5-bd2a-4af3f9e01759")
+		)
+		(pin "10"
+			(uuid "7fdac52a-db08-477b-b603-e5d40d77f8a8")
+		)
+		(pin "11"
+			(uuid "5150eb7e-ab29-4a46-9359-d447d910d2ed")
+		)
+		(pin "6"
+			(uuid "69d0f302-5067-40c5-9b07-1c87ca63026d")
+		)
+		(pin "3"
+			(uuid "2556e462-f352-4a7d-b99e-ac1164fed841")
+		)
+		(pin "2"
+			(uuid "a3fbb0ae-2e27-4f36-b129-de50b8a0fc72")
+		)
+		(pin "5"
+			(uuid "140ff1f7-56dd-4b3b-9044-3dced1cb9fdf")
+		)
+		(pin "1"
+			(uuid "a415696b-1f50-467a-aebe-0ba99d6c6a35")
+		)
+		(pin "7"
+			(uuid "16334558-f720-4ebf-a217-856858c485ef")
+		)
+		(pin "9"
+			(uuid "c1c9e51d-4e62-422b-aa30-0289ca2803ba")
+		)
+		(instances
+			(project ""
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -20383,6 +20610,145 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:DMR-9P")
+		(at 266.7 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad0a6cf6-7f3f-4c20-8d69-2af4ff9000a9")
+		(property "Reference" "J6"
+			(at 266.7 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB9 Expander  1"
+			(at 254 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:DSUB-TH_DMR-9P"
+			(at 266.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/D-DMR009PM-D002/153211.html"
+			(at 266.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Type:Standard D-Sub Gender:Male Number of Pins:9P Mounting Type:Right Angle Number of Rows:2 Current Rating-Signal:3A Current Rating-Power:- Voltage Rating:- Color:Black Operating Temperature:-50°C~+105°C Operating Temperature:-50°C~+105°C"
+			(at 266.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "D-DMR009PM-D002"
+			(at 266.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Ckmtw(灿科盟)"
+			(at 266.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C141880"
+			(at 266.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 266.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "DMR9公"
+			(at 266.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "55b5c792-d2f9-44b7-b2c9-6f9a9009e93a")
+		)
+		(pin "10"
+			(uuid "87c2b4ab-08f6-4aee-b42e-c70d69325280")
+		)
+		(pin "1"
+			(uuid "df43f5c7-f861-4c03-bf0f-527bb9e485c5")
+		)
+		(pin "5"
+			(uuid "84f2f935-0f9f-437c-8a6d-36c7b81f50b1")
+		)
+		(pin "8"
+			(uuid "ddc5dd03-26d3-4b6f-bf66-a5297641a976")
+		)
+		(pin "2"
+			(uuid "c30a9f63-21fd-4075-b7a6-ed4bb1fd00de")
+		)
+		(pin "3"
+			(uuid "b63ee432-feee-4467-8cbb-ccb3ba1ee6ea")
+		)
+		(pin "6"
+			(uuid "6ba25e53-9554-43a7-b625-14734b9d24b2")
+		)
+		(pin "11"
+			(uuid "24853b26-b617-4e75-a96c-e3c03f3793eb")
+		)
+		(pin "4"
+			(uuid "8e8f7d04-aa5f-490d-94ce-4d804599e747")
+		)
+		(pin "7"
+			(uuid "3f1d3c4b-1838-42c7-bc8c-5df24dc51e83")
+		)
+		(instances
+			(project ""
+				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -21024,99 +21390,6 @@
 			(project "fpgaler"
 				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
 					(reference "TP33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:DE9_Pins_MountingHoles")
-		(at 265.43 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bef8bf9f-c505-4a6e-9d8e-7393f1c87a6e")
-		(property "Reference" "J7"
-			(at 267.97 22.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DB9 Expander 0"
-			(at 273.05 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
-			(at 265.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "9-pin D-SUB connector, pins (male), Mounting Hole"
-			(at 265.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "39a37fac-608b-47bc-a1f1-1d5780919af7")
-		)
-		(pin "8"
-			(uuid "1acff5c0-d23a-4c6e-9c50-e2064e280f02")
-		)
-		(pin "1"
-			(uuid "d97880ca-59be-4449-b4bb-cbe0e8b3bf4b")
-		)
-		(pin "0"
-			(uuid "f26c1dbf-6a1c-4dc5-b0de-9f9293fa1dee")
-		)
-		(pin "5"
-			(uuid "a9b976c5-8538-4da8-85b8-1dca0cc19f12")
-		)
-		(pin "9"
-			(uuid "34230502-0509-4e23-9e47-2d7feaa8ee69")
-		)
-		(pin "2"
-			(uuid "8da25664-ba32-4d2d-a1d3-28bf6e7fb8f0")
-		)
-		(pin "6"
-			(uuid "1673435f-c89a-4ad3-b9bb-f17ea2233f04")
-		)
-		(pin "4"
-			(uuid "da5f3bbf-7c6d-4513-b939-c3646b28ef19")
-		)
-		(pin "7"
-			(uuid "5776fafe-8d74-455a-867c-cfd95925c24a")
-		)
-		(instances
-			(project "fpgaler"
-				(path "/d6c42660-1080-4fbd-a2d9-2a0cd6b4e770"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -23469,7 +23742,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 49.53 0)
+		(at 275.59 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23478,7 +23751,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2bacc6d-a4f4-402d-8e39-0971d98cd672")
 		(property "Reference" "#PWR0142"
-			(at 265.43 55.88 0)
+			(at 275.59 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23487,7 +23760,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 54.61 0)
+			(at 275.59 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23495,7 +23768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 49.53 0)
+			(at 275.59 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23504,7 +23777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 49.53 0)
+			(at 275.59 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23513,7 +23786,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 49.53 0)
+			(at 275.59 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
