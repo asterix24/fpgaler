@@ -8249,7 +8249,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0"
+		(property "Value" "USB"
 			(at 41.91 31.75 0)
 			(effects
 				(font
