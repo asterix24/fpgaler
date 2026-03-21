@@ -1,18 +1,29 @@
 (version 1)
+
 (rule "track 0.25"
     (constraint clearance (min 0.25mm))
     (condition "A.Type == 'Track' && A.Size > 0.1mm"))
 
 (rule "Pad to Track Clearance"
-    (constraint clearance (min 0.089mm))
+    (constraint clearance (min 0.2mm))
     (condition "A.Type == 'Pad' && A.Size == 0.23mm && B.Type == 'Track'"))
 
+
 (rule "BGA neckdown"
-    (constraint track_width (min 0.088mm) (opt 0.089mm))
-    (constraint clearance (min 0.089mm) (opt 0.089mm))
-	(constraint hole_to_hole (min 0.089mm))
-	(constraint hole_clearance (min 0.089mm))
+    (constraint track_width (min 0.09mm) (opt 0.09mm))
+    (constraint clearance (min 0.09mm) (opt 0.09mm))
+	(constraint hole_to_hole (min 0.09mm))
+	(constraint hole_clearance (min 0.09mm))
     (condition "A.intersectsCourtyard('U8')"))
+
+
+(rule "Plane to diff"
+    (constraint clearance (min 0.75mm))
+    (condition "A.Type == 'Zone' && B.inDiffPair('/D')"))
+(rule "Plane to diff2"
+    (constraint clearance (min 0.75mm))
+    (condition "A.Name == 'GNDT' && B.inDiffPair('/USB')"))
+
 
 (rule "Plane to all"
     (constraint clearance (min 0.45mm))
